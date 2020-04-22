@@ -4,7 +4,7 @@ Matrices operations for Robotics automation
 Running
 -------
 
-To run the documentation for this project run the following commands:
+To run the documentation for this project run the following commands, at the project folder:
 
 
 .. code-block:: python
@@ -13,7 +13,5 @@ To run the documentation for this project run the following commands:
     python -m pip install sphinx
 
     make clean
-
-    sphinx-build -b dirhtml . _build
 
     make html

@@ -14,6 +14,8 @@
 #
 import os
 import sys
+import sphinx_rtd_theme
+
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.append('src')
 
@@ -44,8 +46,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
-    'recommonmark',
-
+    "sphinx_rtd_theme",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -168,4 +169,4 @@ texinfo_documents = [
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
 
-html_theme = "bizstyle"
+html_theme = "sphinx_rtd_theme"
