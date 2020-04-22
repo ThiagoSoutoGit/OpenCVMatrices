@@ -38,4 +38,6 @@ here you have some functions that:
 
 You also have some matrix differentiation, pruduct rule, quocient rule and the jacobian representation of a matrix for robotic manipulation.
 
+If yu want to see everything just go to the build folder and check the Sphinxs documentation.
+
 
