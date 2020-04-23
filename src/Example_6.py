@@ -33,7 +33,7 @@ def T_rot_x(alpha=0, degrees=True):
     :type alpha: float
     :param alpha: Rotation Angle around the X axis
     :type degrees: bool
-    :param degrees: indicates if the provided angle was in degrees, if yes It will be converted to radians
+    :param degrees: Indicates if the provided angle is in degrees, if yes It will be converted to radians
 
     Returns: The Rotational Matrix at the X axis by an *alpha* angle
     """
@@ -76,7 +76,7 @@ def T_rot_z(theta=0, degrees=True):
     :type theta: float
     :param theta: Rotation Angle around the Z axis
     :type degrees: bool
-    :param degrees: indicates if the provided angle was in degrees, if yes It will be converted to radians
+    :param degrees: Indicates if the provided angle is in degrees, if yes It will be converted to radians
 
     Returns: The Rotational Matrix at the Z axis by an *theta* angle
     """
@@ -109,7 +109,7 @@ def T(alpha=0, a=0, d=0, theta=0, degrees=True):
     :type theta: float
     :param theta: Rotation Angle around the Z axis
     :type degrees: bool
-    :param degrees: indicates if the provided angle was in degrees, if yes It will be converted to radians
+    :param degrees: Indicates if the provided angle is in degrees, if yes It will be converted to radians
 
     Returns: A matrix with the Rotations and translations set.
     """

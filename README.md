@@ -7,10 +7,10 @@
 To run the documentation for this project run the following commands, at the project folder:
 
 ```
-#Install Spinxs
+# Install Spinxs
 python -m pip install sphinx
 
-#Install the "Read the Docs" theme
+# Install the "Read the Docs" theme
 pip install sphinx-rtd-theme
 
 make clean
@@ -38,6 +38,6 @@ here you have some functions that:
 
 You also have some matrix differentiation, pruduct rule, quocient rule and the jacobian representation of a matrix for robotic manipulation.
 
-If yu want to see everything just go to the build folder and check the Sphinxs documentation.
+If you want to see everything just go to the build folder and check the Sphinxs documentation.
 
 
