@@ -71,50 +71,40 @@
 
 
 
-\chapter{Example\_6 module}
-\label{\detokenize{rst/Example_6:example-6-module}}\label{\detokenize{rst/Example_6::doc}}\label{\detokenize{rst/Example_6:welcome-to-matrices-automation-s-documentation}}\label{\detokenize{rst/Example_6:module-Example_6}}\index{Example\_6 (module)}\index{T() (in module Example\_6)}
+\chapter{MatrixManipulation module}
+\label{\detokenize{rst/MatrixManipulation::doc}}\label{\detokenize{rst/MatrixManipulation:welcome-to-matrices-automation-s-documentation}}\label{\detokenize{rst/MatrixManipulation:matrixmanipulation-module}}\label{\detokenize{rst/MatrixManipulation:module-MatrixManipulation}}\index{MatrixManipulation (module)}\index{Matrix (class in MatrixManipulation)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.T}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{T}}}{\emph{alpha=0}, \emph{a=0}, \emph{d=0}, \emph{theta=0}, \emph{degrees=True}}{}
-Definition: Receives four arguments, \sphinxstyleemphasis{alpha} and \sphinxstyleemphasis{a}, being angle for rotation in the X axis and translation on
-the X axis. Also \sphinxstyleemphasis{d} and \sphinxstyleemphasis{theta}, being translation on the Z axis and Rotation on the Z axis. And returns the
-Multiplication of (Rotation matrix in X and the Translation in X) multiplied by (Rotation matrix in Z and the
-Translation in Z) . It utilizes the np.matmul for matrix multiplication.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode\begin{itemize}
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the X axis
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{MatrixManipulation.}}\sphinxbfcode{\sphinxupquote{Matrix}}}{\emph{**kwargs}}{}
+Bases: \sphinxhref{https://docs.python.org/3/library/functions.html\#object}{\sphinxcode{\sphinxupquote{object}}}
 
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{a}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the X-axis
+Definition: This class generates Rotation and Translation matrices,
+that can be used to multiply any matrix and obtain the translation or rotation.
 
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{d}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
+It uses \sphinxtitleref{numpy} to generate the matrices:
+\begin{quote}
 
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{theta}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
+np.float32: creates the array with 16 float32 elements
 
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
+np.reshape: np.reshape rearrange the array into a 4X4 matrix
+\end{quote}
 
-\end{itemize}
+Returns: It returns Rotation and translation matrices.
 
-\end{description}\end{quote}
-
-Returns: A matrix with the Rotations and translations set.
-
-\end{fulllineitems}
-
-\index{T\_rot\_x() (in module Example\_6)}
+Obs: {\color{red}\bfseries{}**}kwargs (keyword arguments) are used to facilitate the identification of the parameters, so initiate the
+object
+like: Matrix(x\_angle=’45’, x\_dist=’100’, z\_angle=’60’, z\_dist=’100’), if an argument is not provided,
+the default 0 will be put to the argument.
+\index{rot\_x() (MatrixManipulation.Matrix method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.T_rot_x}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{T\_rot\_x}}}{\emph{alpha=0}, \emph{degrees=True}}{}
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.rot_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_x}}}{\emph{gamma=0}, \emph{degrees=True}}{}
 Definition: Receives an alpha angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{X} axis.
 If the angle is given in radian degrees should be False.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode\begin{itemize}
 \item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the X axis
+\sphinxstyleliteralstrong{\sphinxupquote{gamma}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the X axis
 
 \item {} 
 \sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
@@ -123,20 +113,20 @@ If the angle is given in radian degrees should be False.
 
 \end{description}\end{quote}
 
-Returns: The Rotational Matrix at the X axis by an \sphinxstyleemphasis{alpha} angle
+Returns: The Rotational Matrix at the X axis by an \sphinxstyleemphasis{gamma} angle
 
 \end{fulllineitems}
 
-\index{T\_rot\_z() (in module Example\_6)}
+\index{rot\_y() (MatrixManipulation.Matrix method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.T_rot_z}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{T\_rot\_z}}}{\emph{theta=0}, \emph{degrees=True}}{}
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.rot_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_y}}}{\emph{beta=0}, \emph{degrees=True}}{}
 Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
 If the angle is given in radian degrees should be False.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode\begin{itemize}
 \item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{theta}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
+\sphinxstyleliteralstrong{\sphinxupquote{beta}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
 
 \item {} 
 \sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
@@ -145,20 +135,38 @@ If the angle is given in radian degrees should be False.
 
 \end{description}\end{quote}
 
-Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{theta} angle
+Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{beta} angle
 
 \end{fulllineitems}
 
-\index{T\_trans\_x() (in module Example\_6)}
+\index{rot\_z() (MatrixManipulation.Matrix method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.T_trans_x}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{T\_trans\_x}}}{\emph{a=0}}{}
-Definition: Translate the matrix a given amount \sphinxtitleref{a} on the \sphinxstyleemphasis{X} axis by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{a} (1,4) element position.
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.rot_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_z}}}{\emph{alpha=0}, \emph{degrees=True}}{}
+Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
+If the angle is given in radian degrees should be False.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode\begin{itemize}
+\item {} 
+\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
 
-np.float32: creates the array with 16 float32 elements
+\item {} 
+\sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
 
-np.reshape: np.reshape rearrange the array into a matrix with 4 lines and 4 columns
+\end{itemize}
+
+\end{description}\end{quote}
+
+Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{alpha} angle
+
+\end{fulllineitems}
+
+\index{trans\_x() (MatrixManipulation.Matrix method)}
+
+\begin{fulllineitems}
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.trans_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_x}}}{\emph{a=0}}{}
+Definition: Translates the matrix a given amount \sphinxtitleref{a} on the \sphinxstyleemphasis{X} axis by Defining a 4x4 identity
+matrix with \sphinxtitleref{a} as the (1,4) element.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode
 \sphinxstyleliteralstrong{\sphinxupquote{a}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the X-axis
@@ -169,48 +177,46 @@ Returns: The Translation Matrix on the \sphinxstyleemphasis{X} axis by a distanc
 
 \end{fulllineitems}
 
-\index{T\_trans\_z() (in module Example\_6)}
+\index{trans\_y() (MatrixManipulation.Matrix method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.T_trans_z}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{T\_trans\_z}}}{\emph{d=0}}{}
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.trans_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_y}}}{\emph{b=0}}{}
 Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{d} (3,4) element position.
+matrix with \sphinxstyleemphasis{b} (3,4) element position.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{d}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
+\sphinxstyleliteralstrong{\sphinxupquote{b}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
 
 \end{description}\end{quote}
 
-Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a distance \sphinxstyleemphasis{d}
+Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a distance \sphinxstyleemphasis{b}
 
 \end{fulllineitems}
 
-\index{main() (in module Example\_6)}
+\index{trans\_z() (MatrixManipulation.Matrix method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6:Example_6.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}~\begin{description}
-\item[{Definition: Complete a series of operations using the functions defined including:}] \leavevmode
-Defines a matrix with no rotation and no translation (Identity)
-Translation of a given distance on the X axis
-Second Translation of a given distance on the X axis
-Identity matrix multiplied by the first X translation multiplied by the second translation
-Rotation Matrix in X by a given angle
-Rotation Matrix in Z by a given angle
-Printe them all
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.Matrix.trans_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_z}}}{\emph{c=0}}{}
+Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
+matrix with \sphinxstyleemphasis{c} (3,4) element position.
+\begin{quote}\begin{description}
+\item[{Parameters}] \leavevmode
+\sphinxstyleliteralstrong{\sphinxupquote{c}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
 
-\end{description}
+\end{description}\end{quote}
+
+Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a distance \sphinxstyleemphasis{c}
 
 \end{fulllineitems}
 
 
+\end{fulllineitems}
 
-\chapter{Example\_6\_Symbolic module}
-\label{\detokenize{rst/Example_6_Symbolic:example-6-symbolic-module}}\label{\detokenize{rst/Example_6_Symbolic::doc}}\label{\detokenize{rst/Example_6_Symbolic:module-Example_6_Symbolic}}\index{Example\_6\_Symbolic (module)}\index{main() (in module Example\_6\_Symbolic)}
+\index{main() (in module MatrixManipulation)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{rst/Example_6_Symbolic:Example_6_Symbolic.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Example\_6\_Symbolic.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}
-This code will prints several Matrices like like Dot products, Rotational Matrix in a symbolic form.
-Refer to :ref: Example\_6 for details on the matrices operations.
+\phantomsection\label{\detokenize{rst/MatrixManipulation:MatrixManipulation.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{MatrixManipulation.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}
+Example 3
 
 \end{fulllineitems}
 
@@ -252,9 +258,8 @@ Install the “Read the Docs” theme:
 \renewcommand{\indexname}{Python Module Index}
 \begin{sphinxtheindex}
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
-\bigletter{e}
-\item {\sphinxstyleindexentry{Example\_6}}\sphinxstyleindexpageref{rst/Example_6:\detokenize{module-Example_6}}
-\item {\sphinxstyleindexentry{Example\_6\_Symbolic}}\sphinxstyleindexpageref{rst/Example_6_Symbolic:\detokenize{module-Example_6_Symbolic}}
+\bigletter{m}
+\item {\sphinxstyleindexentry{MatrixManipulation}}\sphinxstyleindexpageref{rst/MatrixManipulation:\detokenize{module-MatrixManipulation}}
 \end{sphinxtheindex}
 
 \renewcommand{\indexname}{Index}

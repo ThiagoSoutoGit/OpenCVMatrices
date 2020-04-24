@@ -2,30 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/_sources/rst/README.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/_sources/rst/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/_sources/rst/modules.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/py-modindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_6_Symbolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/Example_6_Symbolic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/README.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/chain_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/chain_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/jacobian_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/jacobian_example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/partial_differentiation_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/partial_differentiation_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/product_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/product_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/rst/quotient_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/rst/quotient_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_build/html/searchindex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/working.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Thiago_Souto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Thiago_Souto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/README.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/texput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/rst/modules.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixManipulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,8 +73,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/MatrixManipulation.py" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Example_6_Symbolic.py" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +85,7 @@
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Matrix Manipulation">
+  <component name="RunManager" selected="Python.Matrix Manipulation Symbolic">
     <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="PORT" value="0" />
@@ -74,6 +103,9 @@
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -89,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Example 6 Symbolic" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="Example 3" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,14 +129,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src\Example_6_Symbolic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Example 3.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example 4" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Example 4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example 6 symbolic" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Example_6_Symbolic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -163,12 +236,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src\quotient_rule_examples.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/jacobian_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Matrix Manipulation Symbolic" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,6 +283,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MatrixManipulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Partial Differentiation" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/partial_differentiation_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,6 +379,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="working" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/working.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in " type="docs" factoryName="Sphinx task" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,13 +421,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Python.Example 4" />
+      <item itemvalue="Python.Example 3" />
       <item itemvalue="Python.Matrix Manipulation" />
+      <item itemvalue="Python.working" />
       <item itemvalue="Python.Jacobian" />
+      <item itemvalue="Python.Partial Differentiation" />
       <item itemvalue="Python.Example 2" />
       <item itemvalue="Python.Example 6" />
       <item itemvalue="Python.Quotient Rule" />
       <item itemvalue="Python.Product Rule" />
-      <item itemvalue="Python.Example 6 Symbolic" />
+      <item itemvalue="Python.Matrix Manipulation Symbolic" />
+      <item itemvalue="Python.Example 6 symbolic" />
       <item itemvalue="Python.Example_2" />
       <item itemvalue="Python Debug Server.Unnamed" />
       <item itemvalue="Python docs.sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in " />
@@ -314,7 +458,8 @@
       <workItem from="1587521511782" duration="13312000" />
       <workItem from="1587550659483" duration="1212000" />
       <workItem from="1587590070246" duration="1981000" />
-      <workItem from="1587596016723" duration="15932000" />
+      <workItem from="1587596016723" duration="42447000" />
+      <workItem from="1587720697518" duration="7926000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -358,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587551071885</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Translation and rotation on the X axis implemented within a class called &quot;Matrix&quot;">
+      <created>1587621947621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587621947621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +520,9 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/_build/html" />
+    </ignored-roots>
     <MESSAGE value="First Commit" />
     <MESSAGE value="Rst README" />
     <MESSAGE value="Md README is better for github" />
@@ -381,10 +536,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2172" y="341" key="#Plugins/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587521615361" />
-    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587609279280">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587719361317">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587596486729" />
+    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587719361317" />
     <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609279280" />
     <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587437335234">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -399,49 +554,50 @@
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="1382" y="1570" key="#sphinx_task_in_sphinx_task_in_/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470315298" />
-    <state x="1497" y="1442" key="CommitChangelistDialog2" timestamp="1587621781079">
+    <state x="1497" y="1442" key="CommitChangelistDialog2" timestamp="1587621947147">
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587551071514" />
-    <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621781079" />
-    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587596484920">
+    <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
+    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587719359282">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587596484920" />
+    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587719359281" />
     <state x="1555" y="1778" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470712151" />
     <state x="2442" y="602" key="Github.ShareDialog" timestamp="1587522958808">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2442" y="602" key="Github.ShareDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587522958808" />
-    <state width="1718" height="1343" key="GridCell.Tab.0.bottom" timestamp="1587609408947">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.bottom" timestamp="1587728790020">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1718" height="1343" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587539742609" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
     <state width="1718" height="1343" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state width="1718" height="1343" key="GridCell.Tab.0.center" timestamp="1587609408947">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.center" timestamp="1587728790020">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1718" height="1343" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587539742609" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
     <state width="1718" height="1343" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state width="1718" height="1343" key="GridCell.Tab.0.left" timestamp="1587609408946">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.left" timestamp="1587728790020">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1718" height="1343" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587539742609" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
     <state width="1718" height="1343" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408946" />
-    <state width="1718" height="1343" key="GridCell.Tab.0.right" timestamp="1587609408947">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.right" timestamp="1587728790020">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1718" height="1343" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587539742609" />
+    <state width="1369" height="1336" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
     <state width="1718" height="1343" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state x="1533" y="1645" width="916" height="710" key="SettingsEditor" timestamp="1587613686546">
+    <state x="1533" y="1645" width="916" height="710" key="SettingsEditor" timestamp="1587621961980">
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587523894805" />
-    <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587613686546" />
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587551079405">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621961980" />
+    <state x="1822" y="1759" key="Vcs.Push.Dialog.v2" timestamp="1587621970261">
+      <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587551079405" />
+    <state x="1822" y="1759" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621970261" />
     <state x="1276" y="75" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1587501765371">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -449,9 +605,11 @@
     <state x="1430" y="1496" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470854786" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6.coverage" NAME="Example 6 Coverage Results" MODIFIED="1587609397918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Jacobian.coverage" NAME="Jacobian Coverage Results" MODIFIED="1587624516732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6.coverage" NAME="Example 6 Coverage Results" MODIFIED="1587709436935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$sphinx_task_in_sphinx_task_in_.coverage" NAME="sphinx task in sphinx task in sphinx task in  Coverage Results" MODIFIED="1587470481582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$quotient_rule_examples.coverage" NAME="Jacobian Coverage Results" MODIFIED="1587424040826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6_Symbolic.coverage" NAME="Example 6 Symbolic Coverage Results" MODIFIED="1587456028873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Matrix_Manipulation_Symbolic.coverage" NAME="Matrix Manipulation Symbolic Coverage Results" MODIFIED="1587728790002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6_Symbolic.coverage" NAME="Matrix Manipulation Symbolic Coverage Results" MODIFIED="1587720638301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

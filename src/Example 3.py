@@ -1,9 +1,8 @@
 import numpy as np
 
-
 class Matrix:
     """
-    Definition: This class generates Homogeneous transform matrices,
+    Definition: This class generates Rotation and Translation matrices,
     that can be used to multiply any matrix and obtain the translation or rotation.
 
     It uses `numpy` to generate the matrices:
@@ -19,6 +18,8 @@ class Matrix:
     like: Matrix(x_angle='45', x_dist='100', z_angle='60', z_dist='100'), if an argument is not provided,
     the default 0 will be put to the argument.
     """
+    np.set_printoptions(precision=3)
+
     def __init__(self, **kwargs):
         """
         Initializes the Object.
@@ -71,7 +72,7 @@ class Matrix:
 
         return trans_y
 
-    def trans_z(self, d=0):
+    def trans_z(self, c=0):
         """
         Definition: Translate the matrix a given amount `d` on the *Z* axis. by Defining a matrix T 4x4 identity
         matrix with *c* (3,4) element position.
@@ -81,8 +82,8 @@ class Matrix:
 
         Returns: The Translation Matrix on the *Z* axis by a distance *c*
         """
-        if d:
-            self._z_dist = d
+        if c:
+            self._z_dist = c
         trans_z = np.float32([1, 0, 0, 0,
                                 0, 1, 0, 0,
                                 0, 0, 1, self._z_dist,
@@ -111,8 +112,8 @@ class Matrix:
             self._x_angle = np.deg2rad(gamma)
 
         rot_x = np.float32([1, 0, 0, 0,
-                            0, float("{:.3f}".format(np.cos(self._x_angle))), float("{:.3f}".format(-np.sin(self._x_angle))), 0,
-                            0, float("{:.3f}".format(np.sin(self._x_angle))), float("{:.3f}".format(np.cos(self._x_angle))), 0,
+                            0, np.cos(self._x_angle), -np.sin(self._x_angle), 0,
+                            0, np.sin(self._x_angle), np.cos(self._x_angle), 0,
                             0, 0, 0, 1])
 
         rot_x = np.reshape(rot_x, (4, 4))
@@ -138,9 +139,9 @@ class Matrix:
 
             self._y_angle = np.deg2rad(beta)
 
-        rot_y = np.float32([float("{:.3f}".format(np.cos(self._y_angle))), 0, 0, float("{:.3f}".format(np.sin(self._y_angle))),
+        rot_y = np.float32([np.cos(self._y_angle), 0, 0, np.sin(self._y_angle),
                             0, 0, 0, 0,
-                            float("{:.3f}".format(-np.sin(self._y_angle))), 0, 1, float("{:.3f}".format(np.cos(self._y_angle))),
+                            -np.sin(self._y_angle), 0, 1, np.cos(self._y_angle),
                             0, 0, 0, 1])
 
         rot_y = np.reshape(rot_y, (4, 4))
@@ -166,8 +167,8 @@ class Matrix:
 
             self._z_angle = np.deg2rad(alpha)
 
-        rot_z = np.float32([float("{:.3f}".format(np.cos(self._z_angle))), float("{:.3f}".format(-np.sin(self._z_angle))), 0, 0,
-                            float("{:.3f}".format(np.sin(self._z_angle))), float("{:.3f}".format(np.cos(self._z_angle))), 0, 0,
+        rot_z = np.float32([np.cos(self._z_angle), -np.sin(self._z_angle), 0, 0,
+                            np.sin(self._z_angle), np.cos(self._z_angle), 0, 0,
                             0, 0, 1, 0,
                             0, 0, 0, 1])
 
@@ -294,8 +295,7 @@ def main():
     a3 = Matrix()       # Rotation in Z by 30
     a4 = Matrix()       # Rotation in Z by -30
     a5 = Matrix()       # Translation in X by 0.5
-    a6 = Matrix()       # Both transforms
-    a7 = Matrix()       # g
+
 
 
 
@@ -323,15 +323,18 @@ def main():
     print(a4.rot_z(-30))
     print()
     print('Translation in X by 0.5:')
-    print(a5.trans_x(0.55))
+    print(a5.trans_x(0.5))
     print()
     print('Second Individual Transform:')
     print('Rotation in Z by 30 x Translation in X by 0.5')
-    print(np.matmul(a4.rot_z(-30), a5.trans_x(0.55)))
+    print(np.matmul(a4.rot_z(-30), a5.trans_x(0.5)))
+
+    # np.set_printoptions(precision=1)
 
     print()
     print('Product of both transforms:')
-    a6 = np.matmul(np.matmul((np.matmul(a1.rot_x(90), a2.trans_x(0.75))), a3.rot_z(30)), np.matmul(a4.rot_z(-30), a5.trans_x(0.55)))
+    a6 = np.matmul(np.matmul((np.matmul(a1.rot_x(90), a2.trans_x(0.75))), a3.rot_z(30)),
+                   np.matmul(a4.rot_z(-30), a5.trans_x(0.5)))
     print(a6)
 
     print()
@@ -346,7 +349,6 @@ def main():
 
     # print('Rotation in X by 90 and rotation in Z by 30')
     # print(np.matmul(a0.rot_x(90), a0.rot_z(30)))
-
 
     return
 

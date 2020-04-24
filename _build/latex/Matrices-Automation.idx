@@ -1,9 +1,9 @@
-\indexentry{Example\_6 (module)|hyperpage}{1}
-\indexentry{T() (in module Example\_6)|hyperpage}{1}
-\indexentry{T\_rot\_x() (in module Example\_6)|hyperpage}{1}
-\indexentry{T\_rot\_z() (in module Example\_6)|hyperpage}{1}
-\indexentry{T\_trans\_x() (in module Example\_6)|hyperpage}{1}
-\indexentry{T\_trans\_z() (in module Example\_6)|hyperpage}{2}
-\indexentry{main() (in module Example\_6)|hyperpage}{2}
-\indexentry{Example\_6\_Symbolic (module)|hyperpage}{3}
-\indexentry{main() (in module Example\_6\_Symbolic)|hyperpage}{3}
+\indexentry{MatrixManipulation (module)|hyperpage}{1}
+\indexentry{Matrix (class in MatrixManipulation)|hyperpage}{1}
+\indexentry{rot\_x() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{rot\_y() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{rot\_z() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{trans\_x() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{trans\_y() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{trans\_z() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{main() (in module MatrixManipulation)|hyperpage}{2}

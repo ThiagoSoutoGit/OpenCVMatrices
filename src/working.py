@@ -1,9 +1,8 @@
 import numpy as np
 
-
 class Matrix:
     """
-    Definition: This class generates Homogeneous transform matrices,
+    Definition: This class generates Rotation and Translation matrices,
     that can be used to multiply any matrix and obtain the translation or rotation.
 
     It uses `numpy` to generate the matrices:
@@ -71,7 +70,7 @@ class Matrix:
 
         return trans_y
 
-    def trans_z(self, d=0):
+    def trans_z(self, c=0):
         """
         Definition: Translate the matrix a given amount `d` on the *Z* axis. by Defining a matrix T 4x4 identity
         matrix with *c* (3,4) element position.
@@ -81,8 +80,8 @@ class Matrix:
 
         Returns: The Translation Matrix on the *Z* axis by a distance *c*
         """
-        if d:
-            self._z_dist = d
+        if c:
+            self._z_dist = c
         trans_z = np.float32([1, 0, 0, 0,
                                 0, 1, 0, 0,
                                 0, 0, 1, self._z_dist,
@@ -174,118 +173,11 @@ class Matrix:
         rot_z = np.reshape(rot_z, (4, 4))
 
         return rot_z
-    #
-    # def trans_rot_x_z(alpha=0, a=0, d=0, theta=0, degrees=True):
-    #     """
-    #     Definition: Receives four arguments, *alpha* and *a*, being angle for rotation in the X axis and translation on
-    #     the X axis. Also *d* and *theta*, being translation on the Z axis and Rotation on the Z axis. And returns the
-    #     Multiplication of (Rotation matrix in X and the Translation in X) multiplied by (Rotation matrix in Z and the
-    #     Translation in Z) . It utilizes the np.matmul for matrix multiplication.
-    #
-    #     :type alpha: float
-    #     :param alpha: Rotation Angle around the X axis
-    #     :type degrees: bool
-    #     :type a: float
-    #     :param a: Distance translated on the X-axis
-    #     :type d: float
-    #     :param d: Distance translated on the Z-axis
-    #     :type theta: float
-    #     :param theta: Rotation Angle around the Z axis
-    #     :type degrees: bool
-    #     :param degrees: Indicates if the provided angle is in degrees, if yes It will be converted to radians
-    #
-    #     Returns: A matrix with the Rotations and translations set.
-    #     """
-    #     T = np.matmul(np.matmul(T_rot_x(alpha, degrees=degrees), T_trans_x(a)),
-    #                   np.matmul(T_rot_z(theta, degrees=degrees), T_trans_z(d)))
-    #
-    #     return T
-    #
-    # def __str__(self):
-    #     """
-    #     Provides the string representation of the object
-    #     """
-    #     return f'{self}'
-
 
 def main():
     """
     Example 3
     """
-    # """
-    # Definition: Complete a series of operations using the functions defined including:
-    #     Defines a matrix with no rotation and no translation (Identity)
-    #     Translation of a given distance on the X axis
-    #     Second Translation of a given distance on the X axis
-    #     Identity matrix multiplied by the first X translation multiplied by the second translation
-    #     Rotation Matrix in X by a given angle
-    #     Rotation Matrix in Z by a given angle
-    #     Print them all
-    # """
-    # T_01 = T(0, 0, 0, 0, True)
-    #
-    # print("Matrix with no rotation and no translation (Identity):\n{}\n".format(T_01))
-    #
-    # trans_x = 100
-    # T_12 = T(0, trans_x, 0, 0, True)
-    #
-    # print("Translation of {} on the X axis:\n{}\n".format(trans_x, T_12))
-    #
-    # trans_x_2 = 100
-    # T_23 = T(0, trans_x_2, 0, 0, True)
-    #
-    # print("Second Translation of {} on the X axis:\n{}\n".format(trans_x_2, T_23))
-    #
-    # T_02 = np.matmul(T_01, T_12)
-    # T_03 = np.matmul(T_02, T_23)
-    #
-    # print("Identity matrix multiplied by the first X translation multiplied by the second translation:\n{}".format(
-    #     T_03))
-    #
-    # # Rotation on the X axis
-    #
-    # angle_x = 60
-    # print("\nRotation Matrix in X by {} degrees:".format(angle_x))
-    # print(T_rot_x(angle_x, True))
-    #
-    # # Rotation on the Z axis
-    #
-    # angle_z = 45
-    # print("\nRotation Matrix in Z by {} degrees:".format(angle_z))
-    # print(T_rot_z(angle_z, True))
-
-
-
-    # print(np.matmul(a0.trans_x(100), a0.trans_x(100)))
-
-    # rotation = 45
-    # translation = 100
-    #
-    # print()
-    # print(f'Translation in X by {translation}')
-    # print(a0.trans_x(translation))
-    #
-    # print()
-    # print(f'Rotation in X by {rotation}')
-    # print(a0.rot_x(rotation))
-    #
-    # print()
-    # print(f'Translation in Y by {translation}')
-    # print(a0.trans_y(translation))
-    #
-    # print()
-    # print(f'Rotation in Y by {rotation}')
-    # print(a0.rot_y(rotation))
-    #
-    # print()
-    # print(f'Translation in Z by {translation}')
-    # print(a0.trans_z(translation))
-    #
-    # print()
-    # print(f'Rotation in Z by {rotation}')
-    # print(a0.rot_z(rotation))
-
-
 
     print('Example 3:')
 
@@ -302,8 +194,6 @@ def main():
     print()
     print('Rotation in X by 90:')
     print(a1.rot_x(45))
-    print()
-
     print()
     print('Translation in X by 0.75:')
     print(a2.trans_x(0.75))
@@ -346,7 +236,6 @@ def main():
 
     # print('Rotation in X by 90 and rotation in Z by 30')
     # print(np.matmul(a0.rot_x(90), a0.rot_z(30)))
-
 
     return
 

@@ -10,12 +10,7 @@ Welcome to Matrices - Automation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-      Example 6 <rst/Example_6>
-      Example 6 Symbolic <rst/Example_6_Symbolic>
       Matrix Manipulation Class <rst/MatrixManipulation>
-      README <rst/README>
-
-
 
 Indices and tables
 ==================
