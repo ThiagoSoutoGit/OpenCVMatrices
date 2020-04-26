@@ -5,3 +5,5 @@ MatrixManipulationSymbolic module
     :members:
     :undoc-members:
     :show-inheritance:
+
+

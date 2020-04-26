@@ -6,7 +6,7 @@ src
 
    Example 3
    Example 4
-   Example 7
+   Example7
    Example_2
    Example_6
    Example_6_Symbolic

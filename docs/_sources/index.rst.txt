@@ -12,6 +12,7 @@ Welcome to Matrices Manipulation's documentation!
 
    Matrix Transforms Class <MatrixManipulation.rst>
    Matrix Transforms Symbolic Class <MatrixManipulationSymbolic.rst>
+   Example 7 using the Matrix Transforms Symbolic Class<Example7.rst>
 
 
 
