@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>MatrixManipulation module &mdash; Matrices Manipulation 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'1.0',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="MatrixManipulationSymbolic module" href="MatrixManipulationSymbolic.html" />
+    <link rel="prev" title="Welcome to Matrices Manipulation’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Matrices Manipulation
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Matrix Transforms Class</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MatrixManipulationSymbolic.html">Matrix Transforms Symbolic Class</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Matrices Manipulation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>MatrixManipulation module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/MatrixManipulation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-MatrixManipulation">
+<span id="matrixmanipulation-module"></span><h1>MatrixManipulation module<a class="headerlink" href="#module-MatrixManipulation" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="MatrixManipulation.Matrix">
+<em class="property">class </em><code class="descclassname">MatrixManipulation.</code><code class="descname">Matrix</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Definition: This class generates Homogeneous transform matrices,
+that can be used to multiply any matrix and obtain the translation or rotation.</p>
+<p>It uses <cite>numpy</cite> to generate the matrices:</p>
+<blockquote>
+<div><p>np.float32: creates the array with 16 float32 elements</p>
+<p>np.reshape: np.reshape rearrange the array into a 4X4 matrix</p>
+</div></blockquote>
+<p>Returns: It returns Rotation and translation matrices.</p>
+<p>Obs: <a href="#id1"><span class="problematic" id="id2">**</span></a>kwargs (keyword arguments) are used to facilitate the identification of the parameters, so initiate the
+object
+like: Matrix(x_angle=’45’, x_dist=’100’, z_angle=’60’, z_dist=’100’), if an argument is not provided,
+the default 0 will be put to the argument.</p>
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.rot_x">
+<code class="descname">rot_x</code><span class="sig-paren">(</span><em>gamma=0</em>, <em>degrees=True</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.rot_x" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Receives an alpha angle and returns the rotation matrix for the given angle at the <em>X</em> axis.
+If the angle is given in radian degrees should be False.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>gamma</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Rotation Angle around the X axis</li>
+<li><strong>degrees</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Indicates if the provided angle is in degrees, if yes It will be converted to radians</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Rotational Matrix at the X axis by an <em>gamma</em> angle</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.rot_y">
+<code class="descname">rot_y</code><span class="sig-paren">(</span><em>beta=0</em>, <em>degrees=True</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.rot_y" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Receives an theta angle and returns the rotation matrix for the given angle at the <em>Z</em> axis.
+If the angle is given in radian degrees should be False.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>beta</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Rotation Angle around the Z axis</li>
+<li><strong>degrees</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Indicates if the provided angle is in degrees, if yes It will be converted to radians</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Rotational Matrix at the Z axis by an <em>beta</em> angle</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.rot_z">
+<code class="descname">rot_z</code><span class="sig-paren">(</span><em>alpha=0</em>, <em>degrees=True</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.rot_z" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Receives an theta angle and returns the rotation matrix for the given angle at the <em>Z</em> axis.
+If the angle is given in radian degrees should be False.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>alpha</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Rotation Angle around the Z axis</li>
+<li><strong>degrees</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Indicates if the provided angle is in degrees, if yes It will be converted to radians</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Rotational Matrix at the Z axis by an <em>alpha</em> angle</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.trans_x">
+<code class="descname">trans_x</code><span class="sig-paren">(</span><em>a=0</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.trans_x" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Translates the matrix a given amount <cite>a</cite> on the <em>X</em> axis by Defining a 4x4 identity
+matrix with <cite>a</cite> as the (1,4) element.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>a</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Distance translated on the X-axis</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Translation Matrix on the <em>X</em> axis by a distance <em>a</em></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.trans_y">
+<code class="descname">trans_y</code><span class="sig-paren">(</span><em>b=0</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.trans_y" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Translate the matrix a given amount <cite>d</cite> on the <em>Z</em> axis. by Defining a matrix T 4x4 identity
+matrix with <em>b</em> (3,4) element position.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>b</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Distance translated on the Z-axis</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Translation Matrix on the <em>Z</em> axis by a distance <em>b</em></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="MatrixManipulation.Matrix.trans_z">
+<code class="descname">trans_z</code><span class="sig-paren">(</span><em>d=0</em><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.Matrix.trans_z" title="Permalink to this definition">¶</a></dt>
+<dd><p>Definition: Translate the matrix a given amount <cite>d</cite> on the <em>Z</em> axis. by Defining a matrix T 4x4 identity
+matrix with <em>c</em> (3,4) element position.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>d</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Distance translated on the Z-axis</td>
+</tr>
+</tbody>
+</table>
+<p>Returns: The Translation Matrix on the <em>Z</em> axis by a distance <em>c</em></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="MatrixManipulation.main">
+<code class="descclassname">MatrixManipulation.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#MatrixManipulation.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Example 3</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="MatrixManipulationSymbolic.html" class="btn btn-neutral float-right" title="MatrixManipulationSymbolic module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Matrices Manipulation’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Thiago Souto
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
