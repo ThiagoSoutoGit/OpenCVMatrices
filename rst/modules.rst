@@ -4,10 +4,13 @@ src
 .. toctree::
    :maxdepth: 4
 
+   Example 3
+   Example 4
    Example_2
    Example_6
    Example_6_Symbolic
    MatrixManipulation
+   MatrixManipulationSymbolic
    chain_rule_examples
    jacobian_example
    partial_differentiation_examples

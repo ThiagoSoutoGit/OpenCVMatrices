@@ -2,47 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Example 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/working.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Thiago_Souto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Thiago_Souto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rst/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolicHybrid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notebooks/PartialDifferentiation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/index.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/README.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/py-modindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/README.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" beforeDir="false" afterPath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/texput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_2.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_6.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_6_Symbolic.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/chain_rule_examples.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/jacobian_example.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/partial_differentiation_examples.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/product_rule_examples.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/quotient_rule_examples.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_2.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_6.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_6_Symbolic.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/chain_rule_examples.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/jacobian_example.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/partial_differentiation_examples.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/product_rule_examples.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/quotient_rule_examples.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment-bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/down-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery-3.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/underscore-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/up-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/_static/websupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/py-modindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/footnotehyper-sphinx.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/latexmkjarc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/latexmkrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/python.ist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/sphinx.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxhighlight.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxhowto.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxmanual.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxmulticell.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/make.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rst/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/rst/modules.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Example 4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MatrixManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixManipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partial_differentiation_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/partial_differentiation_examples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +102,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="3df570bf-d0a6-41ab-a7d5-deae54075abb" />
   <component name="ProjectId" id="1ap76Ypb6I7UYeCIP1stfwZ2PUT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,19 +124,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Example_6_Symbolic.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/MatrixManipulationSymbolicHybrid.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\Sphinxs" />
+      <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices" />
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\rst" />
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Matrix Manipulation Symbolic">
+  <component name="RunManager" selected="Python.Partial Differentiation">
     <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="PORT" value="0" />
@@ -169,6 +222,9 @@
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -206,6 +262,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Example 7" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Example 7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Example_2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +295,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src\Example_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Hybrid" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MatrixManipulationSymbolicHybrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,6 +373,9 @@
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -295,9 +395,6 @@
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -422,6 +519,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.Example 4" />
+      <item itemvalue="Python.Example 7" />
       <item itemvalue="Python.Example 3" />
       <item itemvalue="Python.Matrix Manipulation" />
       <item itemvalue="Python.working" />
@@ -432,6 +530,7 @@
       <item itemvalue="Python.Quotient Rule" />
       <item itemvalue="Python.Product Rule" />
       <item itemvalue="Python.Matrix Manipulation Symbolic" />
+      <item itemvalue="Python.Hybrid" />
       <item itemvalue="Python.Example 6 symbolic" />
       <item itemvalue="Python.Example_2" />
       <item itemvalue="Python Debug Server.Unnamed" />
@@ -459,7 +558,9 @@
       <workItem from="1587550659483" duration="1212000" />
       <workItem from="1587590070246" duration="1981000" />
       <workItem from="1587596016723" duration="42447000" />
-      <workItem from="1587720697518" duration="7926000" />
+      <workItem from="1587720697518" duration="23317000" />
+      <workItem from="1587838905465" duration="6996000" />
+      <workItem from="1587857244980" duration="7429000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -510,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587621947621</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done.">
+      <created>1587728931956</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587728931956</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,17 +637,18 @@
     <MESSAGE value="Example 6 finished with comments for Sphinxs documentation" />
     <MESSAGE value="New README.md and better looking Sphinxs documentation with the Read the docs theme." />
     <MESSAGE value="Translation and rotation on the X axis implemented within a class called &quot;Matrix&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translation and rotation on the X axis implemented within a class called &quot;Matrix&quot;" />
+    <MESSAGE value="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2172" y="341" key="#Plugins" timestamp="1587521615361">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2172" y="341" key="#Plugins/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587521615361" />
-    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587719361317">
+    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587786012329">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587719361317" />
+    <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587786012329" />
     <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609279280" />
     <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587437335234">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -554,49 +663,65 @@
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="1382" y="1570" key="#sphinx_task_in_sphinx_task_in_/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470315298" />
-    <state x="1497" y="1442" key="CommitChangelistDialog2" timestamp="1587621947147">
-      <screen x="718" y="1440" width="1920" height="1040" />
-    </state>
-    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587551071514" />
-    <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
-    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587719359282">
+    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587728931141">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587719359281" />
+    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728931141" />
+    <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
+    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587786010314">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587786010314" />
     <state x="1555" y="1778" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470712151" />
     <state x="2442" y="602" key="Github.ShareDialog" timestamp="1587522958808">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2442" y="602" key="Github.ShareDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587522958808" />
-    <state width="1369" height="1336" key="GridCell.Tab.0.bottom" timestamp="1587728790020">
+    <state width="3397" height="480" key="GridCell.Tab.0.bottom" timestamp="1587848073592">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1369" height="1336" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
+    <state width="3397" height="480" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
     <state width="1718" height="1343" key="GridCell.Tab.0.bottom/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state width="1369" height="1336" key="GridCell.Tab.0.center" timestamp="1587728790020">
+    <state width="3397" height="480" key="GridCell.Tab.0.center" timestamp="1587848073592">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1369" height="1336" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
+    <state width="3397" height="480" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
     <state width="1718" height="1343" key="GridCell.Tab.0.center/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state width="1369" height="1336" key="GridCell.Tab.0.left" timestamp="1587728790020">
+    <state width="3397" height="480" key="GridCell.Tab.0.left" timestamp="1587848073592">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1369" height="1336" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
+    <state width="3397" height="480" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
     <state width="1718" height="1343" key="GridCell.Tab.0.left/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408946" />
-    <state width="1369" height="1336" key="GridCell.Tab.0.right" timestamp="1587728790020">
+    <state width="3397" height="480" key="GridCell.Tab.0.right" timestamp="1587848073592">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1369" height="1336" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728790020" />
+    <state width="3397" height="480" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
     <state width="1718" height="1343" key="GridCell.Tab.0.right/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609408947" />
-    <state x="1533" y="1645" width="916" height="710" key="SettingsEditor" timestamp="1587621961980">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state width="3397" height="480" key="GridCell.Tab.1.bottom" timestamp="1587848073592">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587523894805" />
+    <state width="3397" height="480" key="GridCell.Tab.1.bottom/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
+    <state width="3397" height="480" key="GridCell.Tab.1.center" timestamp="1587848073592">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="480" key="GridCell.Tab.1.center/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
+    <state width="3397" height="480" key="GridCell.Tab.1.left" timestamp="1587848073592">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="480" key="GridCell.Tab.1.left/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
+    <state width="3397" height="480" key="GridCell.Tab.1.right" timestamp="1587848073592">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="3397" height="480" key="GridCell.Tab.1.right/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587848073592" />
+    <state x="504" y="257" width="916" height="710" key="SettingsEditor" timestamp="1587891535708">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587891535708" />
     <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621961980" />
-    <state x="1822" y="1759" key="Vcs.Push.Dialog.v2" timestamp="1587621970261">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587728940715">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587551079405" />
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728940715" />
     <state x="1822" y="1759" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621970261" />
     <state x="1276" y="75" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1587501765371">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -605,11 +730,12 @@
     <state x="1430" y="1496" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470854786" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_7.coverage" NAME="Example 7 Coverage Results" MODIFIED="1587848043158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$Jacobian.coverage" NAME="Jacobian Coverage Results" MODIFIED="1587624516732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6.coverage" NAME="Example 6 Coverage Results" MODIFIED="1587709436935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$sphinx_task_in_sphinx_task_in_.coverage" NAME="sphinx task in sphinx task in sphinx task in  Coverage Results" MODIFIED="1587470481582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$quotient_rule_examples.coverage" NAME="Jacobian Coverage Results" MODIFIED="1587424040826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenCVMatrices$Matrix_Manipulation_Symbolic.coverage" NAME="Matrix Manipulation Symbolic Coverage Results" MODIFIED="1587728790002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/OpenCVMatrices$Matrix_Manipulation_Symbolic.coverage" NAME="Matrix Manipulation Symbolic Coverage Results" MODIFIED="1587845990836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/OpenCVMatrices$Example_6_Symbolic.coverage" NAME="Matrix Manipulation Symbolic Coverage Results" MODIFIED="1587720638301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

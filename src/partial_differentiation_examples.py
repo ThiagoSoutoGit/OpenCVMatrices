@@ -65,6 +65,34 @@ def main():
     df_dR = sympy.diff(f, R)
     disp("df/dR", df_dR)
 
+    l_1, l_2, theta_1, theta_2 = sympy.symbols('l_1, l_2, theta_1, theta_2')
+
+    print()
+    print('Yotube example: ')
+    fx = l_1 * sympy.cos(theta_1) + l_2 * sympy.cos(theta_1 + theta_2)
+    fy = l_1 * sympy.sin(theta_1) + l_2 * sympy.sin(theta_1 + theta_2)
+
+    df_dx_t1 = sympy.diff(fx, theta_1)
+    df_dx_t2 = sympy.diff(fx, theta_2)
+    df_dy_t1 = sympy.diff(fy, theta_1)
+    df_dy_t2 = sympy.diff(fy, theta_2)
+
+    print()
+    disp("dfx/d t1", df_dx_t1)
+    print()
+    disp("dfx/d t2", df_dx_t2)
+    print()
+    disp("dfy/d t1", df_dy_t1)
+    print()
+    disp("dfy/d t2", df_dy_t2)
+
+
+    Jacobian = sympy.Matrix([[df_dx_t1, df_dx_t2],
+                             [df_dy_t1, df_dy_t2]])
+    print()
+    print('The Jacobian is:')
+    print(sympy.pretty(Jacobian))
+
     return
 
 

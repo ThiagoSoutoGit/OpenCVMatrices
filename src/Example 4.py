@@ -1,9 +1,11 @@
 import numpy as np
 
+
 def main():
     """
     Example 4
     """
+    np.set_printoptions(precision=3, suppress=True)
 
     print('Example 4:')
     print()
@@ -26,7 +28,7 @@ def main():
 
     print()
     print('Matrix I - A:')
-    print(mi -ma)
+    print(mi - ma)
 
     print()
     print('Matrix I + A:')
@@ -38,7 +40,7 @@ def main():
 
     print()
     print('Matrix Q = (I-A)((I + A)^-1):')
-    print(np.matmul((mi -ma), (np.linalg.inv(mi + ma))))
+    print(np.matmul((mi - ma), (np.linalg.inv(mi + ma))))
 
     return
 

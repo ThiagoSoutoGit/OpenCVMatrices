@@ -2,7 +2,7 @@ import numpy as np
 import sympy as sympy
 
 
-class MatrixSymbolic:
+class MatrixSymbolicHybrid:
     """
     Definition: This class generates Homogeneous transform matrices, although it uses a symbolic approach
     that can be used to multiply any matrix and obtain the translation or rotation.
@@ -59,8 +59,8 @@ class MatrixSymbolic:
 
         Returns: The Translation Matrix on the *X* axis by a given distance
         """
-        if a is '0':
-            self._x_dist = 0
+        if type(a) is not str:
+            self._x_dist = sympy.sympify(a)
         else:
             self._x_dist = sympy.Symbol(a, real=True)
 
@@ -81,8 +81,8 @@ class MatrixSymbolic:
 
         Returns: The Translation Matrix on the *Z* axis by a given distance
         """
-        if b is '0':
-            self._y_dist = 0
+        if type(b) is not str:
+            self._y_dist = sympy.sympify(b)
         else:
             self._y_dist = sympy.Symbol(b, real=True)
 
@@ -103,8 +103,8 @@ class MatrixSymbolic:
 
         Returns: The Translation Matrix on the *Z* axis by a given distance
         """
-        if d is '0':
-            self._z_dist = 0
+        if type(d) is not str:
+            self._z_dist = sympy.sympify(d)
         else:
             self._z_dist = sympy.Symbol(d, real=True)
 
@@ -125,8 +125,8 @@ class MatrixSymbolic:
 
         Returns: The Rotational Matrix at the X axis by an *given* angle
         """
-        if gamma is '0':
-            self._x_angle = 0
+        if type(gamma) is not str:
+            self._x_angle = sympy.sympify(gamma)
         else:
             self._x_angle = sympy.Symbol(gamma, real=True)
 
@@ -147,8 +147,8 @@ class MatrixSymbolic:
 
         Returns: The Rotational Matrix at the Y axis by an *given* angle
         """
-        if beta is '0':
-            self._y_angle = 0
+        if type(beta) is not str:
+            self._y_angle = sympy.sympify(beta)
         else:
             self._y_angle = sympy.Symbol(beta, real=True)
 
@@ -169,8 +169,8 @@ class MatrixSymbolic:
 
         Returns: The Rotational Matrix at the Z axis by an *given* angle
         """
-        if alpha is '0':
-            self._z_angle = 0
+        if type(alpha) is not str:
+            self._z_angle = sympy.sympify(alpha)
         else:
             self._z_angle = sympy.Symbol(alpha, real=True)
 
@@ -191,14 +191,14 @@ def main():
     """
     print('Example 6:')
 
-    a1 = MatrixSymbolic()       # Rx(a_i-1)
-    a2 = MatrixSymbolic()       # Dx(a_i-1)
-    a3 = MatrixSymbolic()       # Dz(d_i)
-    a4 = MatrixSymbolic()       # Rz(theta_i)
+    a1 = MatrixSymbolicHybrid()       # Rx(a_i-1)
+    a2 = MatrixSymbolicHybrid()       # Dx(a_i-1)
+    a3 = MatrixSymbolicHybrid()       # Dz(d_i)
+    a4 = MatrixSymbolicHybrid()       # Rz(theta_i)
 
     print()
     print('Rx(0):')
-    print(sympy.pretty(a1.rot_x('0')))
+    print(sympy.pretty(a1.rot_x(0)))
     print()
 
     print()
@@ -218,17 +218,17 @@ def main():
 
     print()
     print('t_0_1:')
-    t_0_1 = (a1.rot_x('0')) * (a2.trans_x('0')) * (a3.trans_z('0')) * (a4.rot_z('theta_1'))
+    t_0_1 = (a1.rot_x(0)) * (a2.trans_x(0)) * (a3.trans_z(0)) * (a4.rot_z('theta_1'))
     print(sympy.pretty(t_0_1))
 
     print()
     print('t_1_2:')
-    t_1_2 = (a1.rot_x('0')) * (a2.trans_x('l1')) * (a3.trans_z('0')) * (a4.rot_z('theta_2'))
+    t_1_2 = (a1.rot_x(0)) * (a2.trans_x('l1')) * (a3.trans_z(0)) * (a4.rot_z('theta_2'))
     print(sympy.pretty(t_1_2))
 
     print()
     print('t_2_3:')
-    t_2_3 = (a1.rot_x('0')) * (a2.trans_x('l2')) * (a3.trans_z('0')) * (a4.rot_z('theta_3'))
+    t_2_3 = (a1.rot_x(0)) * (a2.trans_x('l2')) * (a3.trans_z(0)) * (a4.rot_z('theta_3'))
     print(sympy.pretty(t_2_3))
 
     t_0_2 = t_0_1 * t_1_2

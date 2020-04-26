@@ -10,10 +10,14 @@ Welcome to Matrices - Automation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-      Matrix Manipulation Class <rst/MatrixManipulation>
+   Introduction <rst/README.rst>
+   Matrix Transforms Class <rst/MatrixManipulation.rst>
+   Matrix Transforms Symbolic Class <rst/MatrixManipulationSymbolic.rst>
 
 Indices and tables
 ==================
+
+At the html presentation you can navigate through the menus below:
 
 * :ref:`genindex`
 * :ref:`modindex`
@@ -35,3 +39,10 @@ To run the documentation for this project run the following commands, at the pro
    **make clean**
 
    **make html**
+
+GitHub Repository
+-----------------
+
+Find all the files at the GitHub repository here_.
+
+.. _here: https://github.com/ThiagoSoutoGit/OpenCVMatrices
