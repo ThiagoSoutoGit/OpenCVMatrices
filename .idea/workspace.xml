@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example 3.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example 4.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example 7.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example_2.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example_6.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example_6_Symbolic.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/MatrixManipulation.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/MatrixManipulationSymbolic.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/MatrixManipulationSymbolicHybrid.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/chain_rule_examples.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/jacobian_example.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/partial_differentiation_examples.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/product_rule_examples.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/quotient_rule_examples.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/working.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/footnotehyper-sphinx.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/latexmkjarc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/latexmkrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/python.ist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/sphinx.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxhighlight.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxhowto.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxmanual.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxmulticell.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example 3.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example 4.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example 7.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example_2.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example_6.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/Example_6_Symbolic.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulation.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolic.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolicHybrid.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/chain_rule_examples.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/jacobian_example.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/modules.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/partial_differentiation_examples.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/product_rule_examples.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/quotient_rule_examples.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sphinxs/source/working.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,7 +472,7 @@
       <workItem from="1587596016723" duration="42447000" />
       <workItem from="1587720697518" duration="23317000" />
       <workItem from="1587838905465" duration="6996000" />
-      <workItem from="1587857244980" duration="12598000" />
+      <workItem from="1587857244980" duration="13306000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -616,7 +565,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587901647077</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New doc structure">
+      <created>1587901830023</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587901830023</updated>
+    </task>
+    <task id="LOCAL-00015" summary="New doc structure">
+      <created>1587901924077</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587901924077</updated>
+    </task>
+    <task id="LOCAL-00016" summary="New doc structure">
+      <created>1587902053027</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587902053027</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,10 +634,10 @@
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="1382" y="1570" key="#sphinx_task_in_sphinx_task_in_/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470315298" />
-    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587901645805">
+    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587902052505">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587901645805" />
+    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587902052505" />
     <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
     <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587786010314">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -719,10 +689,10 @@
     </state>
     <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587891535708" />
     <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621961980" />
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587901678011">
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587902058377">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587901678011" />
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587902058377" />
     <state x="1822" y="1759" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621970261" />
     <state x="1276" y="75" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1587501765371">
       <screen x="0" y="0" width="3440" height="1400" />

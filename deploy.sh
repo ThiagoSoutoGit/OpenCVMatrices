@@ -1,15 +1,8 @@
 set -e
 
-cd _build/html
-
-git init
-
 git add .
 
-git commit -m 'New deployment'
+git commit
 
-git remote add origin git@github.com:ThiagoSoutoGit/OpenCVMatrices.git
+git push
 
-git push -f origin master:gh-pages
-
-cd -
