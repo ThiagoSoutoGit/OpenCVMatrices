@@ -1,0 +1,18 @@
+\indexentry{MatrixManipulation (module)|hyperpage}{1}
+\indexentry{Matrix (class in MatrixManipulation)|hyperpage}{1}
+\indexentry{rot\_x() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{rot\_y() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{rot\_z() (MatrixManipulation.Matrix method)|hyperpage}{1}
+\indexentry{trans\_x() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{trans\_y() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{trans\_z() (MatrixManipulation.Matrix method)|hyperpage}{2}
+\indexentry{main() (in module MatrixManipulation)|hyperpage}{2}
+\indexentry{MatrixManipulationSymbolic (module)|hyperpage}{3}
+\indexentry{MatrixSymbolic (class in MatrixManipulationSymbolic)|hyperpage}{3}
+\indexentry{rot\_x() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{3}
+\indexentry{rot\_y() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{3}
+\indexentry{rot\_z() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{3}
+\indexentry{trans\_x() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{4}
+\indexentry{trans\_y() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{4}
+\indexentry{trans\_z() (MatrixManipulationSymbolic.MatrixSymbolic method)|hyperpage}{4}
+\indexentry{main() (in module MatrixManipulationSymbolic)|hyperpage}{4}
