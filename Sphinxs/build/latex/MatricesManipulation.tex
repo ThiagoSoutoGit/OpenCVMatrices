@@ -56,7 +56,7 @@
 
 
 \title{Matrices Manipulation Documentation}
-\date{Apr 26, 2020}
+\date{Apr 27, 2020}
 \release{1.0}
 \author{Thiago Souto}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -72,7 +72,7 @@
 
 
 \chapter{MatrixManipulation module}
-\label{\detokenize{MatrixManipulation:welcome-to-matrices-manipulation-s-documentation}}\label{\detokenize{MatrixManipulation:matrixmanipulation-module}}\label{\detokenize{MatrixManipulation:module-MatrixManipulation}}\label{\detokenize{MatrixManipulation::doc}}\index{MatrixManipulation (module)}\index{Matrix (class in MatrixManipulation)}
+\label{\detokenize{MatrixManipulation:matrixmanipulation-module}}\label{\detokenize{MatrixManipulation:welcome-to-matrices-manipulation-s-documentation}}\label{\detokenize{MatrixManipulation:module-MatrixManipulation}}\label{\detokenize{MatrixManipulation::doc}}\index{MatrixManipulation (module)}\index{Matrix (class in MatrixManipulation)}
 
 \begin{fulllineitems}
 \phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{MatrixManipulation.}}\sphinxbfcode{\sphinxupquote{Matrix}}}{\emph{**kwargs}}{}
@@ -223,7 +223,7 @@ Example 3
 
 
 \chapter{MatrixManipulationSymbolic module}
-\label{\detokenize{MatrixManipulationSymbolic:module-MatrixManipulationSymbolic}}\label{\detokenize{MatrixManipulationSymbolic::doc}}\label{\detokenize{MatrixManipulationSymbolic:matrixmanipulationsymbolic-module}}\index{MatrixManipulationSymbolic (module)}\index{MatrixSymbolic (class in MatrixManipulationSymbolic)}
+\label{\detokenize{MatrixManipulationSymbolic:module-MatrixManipulationSymbolic}}\label{\detokenize{MatrixManipulationSymbolic:matrixmanipulationsymbolic-module}}\label{\detokenize{MatrixManipulationSymbolic::doc}}\index{MatrixManipulationSymbolic (module)}\index{MatrixSymbolic (class in MatrixManipulationSymbolic)}
 
 \begin{fulllineitems}
 \phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{MatrixManipulationSymbolic.}}\sphinxbfcode{\sphinxupquote{MatrixSymbolic}}}{\emph{**kwargs}}{}
@@ -371,6 +371,67 @@ At the end we can express a Transform from link 0 to link 3.
 
 \end{fulllineitems}
 
+
+
+\chapter{Example7 module}
+\label{\detokenize{Example7:example7-module}}\label{\detokenize{Example7::doc}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\},numbers=left,firstnumber=1,stepnumber=1]
+\PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sympy}
+\PYG{k+kn}{from} \PYG{n+nn}{src}\PYG{n+nn}{.}\PYG{n+nn}{MatrixManipulationSymbolic} \PYG{k+kn}{import} \PYG{n}{MatrixSymbolic}
+
+
+\PYG{k}{def} \PYG{n+nf}{main}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Example 7, First part homogeneous transform:}
+
+\PYG{l+s+sd}{    Calculates the Three\PYGZhy{}link manipulator kinematics.}
+\PYG{l+s+sd}{    At the end we can express a Transform from link 0 to link 4.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Example 7:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+
+    \PYG{n}{a1} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rx(a\PYGZus{}i\PYGZhy{}1)}
+    \PYG{n}{a2} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dx(a\PYGZus{}i\PYGZhy{}1)}
+    \PYG{n}{a3} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dz(d\PYGZus{}i)}
+    \PYG{n}{a4} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rz(theta\PYGZus{}i)}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}1:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}1}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}1}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}1\PYGZus{}2:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{90.0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}1\PYGZus{}2}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}2\PYGZus{}3:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}2\PYGZus{}3} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}2\PYGZus{}3}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}3\PYGZus{}4:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}3\PYGZus{}4} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}3\PYGZus{}4}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{n}{t\PYGZus{}0\PYGZus{}4} \PYG{o}{=} \PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{*} \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{*} \PYG{n}{t\PYGZus{}2\PYGZus{}3} \PYG{o}{*} \PYG{n}{t\PYGZus{}3\PYGZus{}4}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}4:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{simplify}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}4}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{n}{t\PYGZus{}0\PYGZus{}4f} \PYG{o}{=} \PYG{n}{t\PYGZus{}0\PYGZus{}4}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}4f:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{simplify}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}4f}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+
+    \PYG{k}{return}
+
+
+\PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:}
+    \PYG{n}{main}\PYG{p}{(}\PYG{p}{)}
+\end{sphinxVerbatim}
 
 
 \chapter{Indices and tables}

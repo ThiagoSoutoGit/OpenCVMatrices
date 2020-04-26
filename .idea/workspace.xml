@@ -2,8 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Example7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example 7.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/Example 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/Example 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example 7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/Example_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/Example_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_6_Symbolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/Example_6_Symbolic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolicHybrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolicHybrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example 7.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulation.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulation.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulationSymbolic.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulationSymbolic.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/chain_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/chain_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/jacobian_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/jacobian_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/partial_differentiation_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/partial_differentiation_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/product_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/product_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/quotient_rule_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/quotient_rule_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/working.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/working.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.out" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example 7.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulation.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulation.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolic.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolic.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/modules.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example 7.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +93,7 @@
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Partial Differentiation">
+  <component name="RunManager" selected="Python.Example 7">
     <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="PORT" value="0" />
@@ -184,7 +227,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Example 7.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src\Example7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -472,7 +515,7 @@
       <workItem from="1587596016723" duration="42447000" />
       <workItem from="1587720697518" duration="23317000" />
       <workItem from="1587838905465" duration="6996000" />
-      <workItem from="1587857244980" duration="13306000" />
+      <workItem from="1587857244980" duration="18650000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
