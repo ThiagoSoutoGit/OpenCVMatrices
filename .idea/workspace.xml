@@ -3,6 +3,96 @@
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/doctrees/environment.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/doctrees/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/.buildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_sources/index.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/comment-bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/comment-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/css/badge_only.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/documentation_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/down-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Inconsolata-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Inconsolata.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/Lato/lato-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/jquery-3.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/underscore-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/up-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/_static/websupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/genindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/objects.inv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/_build/html/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/make.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/Example 3.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/Example 4.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/Example_2.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/Example_6.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/Example_6_Symbolic.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/MatrixManipulation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/MatrixManipulationSymbolic.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/chain_rule_examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/jacobian_example.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/partial_differentiation_examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/product_rule_examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/quotient_rule_examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rst/working.rst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +561,7 @@
       <workItem from="1587596016723" duration="42447000" />
       <workItem from="1587720697518" duration="23317000" />
       <workItem from="1587838905465" duration="6996000" />
-      <workItem from="1587857244980" duration="8086000" />
+      <workItem from="1587857244980" duration="12262000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -543,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587896753310</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Include .nojekyll file">
+      <created>1587897434582</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587897434582</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Include .nojekyll file">
+      <created>1587897497410</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587897497410</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +668,8 @@
     <MESSAGE value="Translation and rotation on the X axis implemented within a class called &quot;Matrix&quot;" />
     <MESSAGE value="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done." />
     <MESSAGE value="New html documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="New html documentation" />
+    <MESSAGE value="Include .nojekyll file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include .nojekyll file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2172" y="341" key="#Plugins" timestamp="1587521615361">
@@ -576,10 +681,10 @@
     </state>
     <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587786012329" />
     <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609279280" />
-    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587896978705">
+    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587897375787">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896978705" />
+    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587897375787" />
     <state x="1054" y="318" width="458" height="498" key="#com.intellij.tools.ToolEditorDialog" timestamp="1587501762087">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -589,10 +694,10 @@
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="1382" y="1570" key="#sphinx_task_in_sphinx_task_in_/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470315298" />
-    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587896752781">
+    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587897497048">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896752781" />
+    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587897497048" />
     <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
     <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587786010314">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -644,10 +749,10 @@
     </state>
     <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587891535708" />
     <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621961980" />
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587896762907">
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587897503425">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896762907" />
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587897503425" />
     <state x="1822" y="1759" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621970261" />
     <state x="1276" y="75" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1587501765371">
       <screen x="0" y="0" width="3440" height="1400" />
