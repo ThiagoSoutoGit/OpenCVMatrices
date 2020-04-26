@@ -2,96 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rst/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example 7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolicHybrid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notebooks/PartialDifferentiation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/environment.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/index.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_2.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_6.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/Example_6_Symbolic.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/MatrixManipulation.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/chain_rule_examples.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/jacobian_example.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/modules.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/partial_differentiation_examples.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/product_rule_examples.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/doctrees/rst/quotient_rule_examples.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_2.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_6.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/Example_6_Symbolic.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/chain_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/jacobian_example.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/modules.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/partial_differentiation_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/product_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_sources/rst/quotient_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment-bright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/documentation_options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/down-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/up-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/_static/websupport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/py-modindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/Example_6_Symbolic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/chain_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/jacobian_example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/modules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/partial_differentiation_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/product_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/rst/quotient_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/html/searchindex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.aux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/Matrices-Automation.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/footnotehyper-sphinx.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/latexmkjarc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/latexmkrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/python.ist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/sphinx.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxhighlight.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxhowto.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxmanual.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build/latex/sphinxmulticell.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/make.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rst/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/rst/modules.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Example 4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixManipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partial_differentiation_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/partial_differentiation_examples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -560,7 +471,7 @@
       <workItem from="1587596016723" duration="42447000" />
       <workItem from="1587720697518" duration="23317000" />
       <workItem from="1587838905465" duration="6996000" />
-      <workItem from="1587857244980" duration="7429000" />
+      <workItem from="1587857244980" duration="8086000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -618,7 +529,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587728931956</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New html documentation">
+      <created>1587896663128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587896663129</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New html documentation">
+      <created>1587896753310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587896753310</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +563,8 @@
     <MESSAGE value="New README.md and better looking Sphinxs documentation with the Read the docs theme." />
     <MESSAGE value="Translation and rotation on the X axis implemented within a class called &quot;Matrix&quot;" />
     <MESSAGE value="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Matrix Manipulation with symbols on MatrixManipulationSymbolic.py, example 6 done." />
+    <MESSAGE value="New html documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="New html documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2172" y="341" key="#Plugins" timestamp="1587521615361">
@@ -650,10 +576,10 @@
     </state>
     <state x="136" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587786012329" />
     <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587609279280" />
-    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587437335234">
+    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587896978705">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587437335234" />
+    <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896978705" />
     <state x="1054" y="318" width="458" height="498" key="#com.intellij.tools.ToolEditorDialog" timestamp="1587501762087">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -663,10 +589,10 @@
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
     <state x="1382" y="1570" key="#sphinx_task_in_sphinx_task_in_/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470315298" />
-    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587728931141">
+    <state x="2162" y="190" key="CommitChangelistDialog2" timestamp="1587896752781">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728931141" />
+    <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896752781" />
     <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
     <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1587786010314">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -718,10 +644,10 @@
     </state>
     <state x="504" y="257" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587891535708" />
     <state x="1533" y="1645" width="916" height="710" key="SettingsEditor/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621961980" />
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587728940715">
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2" timestamp="1587896762907">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587728940715" />
+    <state x="2172" y="429" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587896762907" />
     <state x="1822" y="1759" key="Vcs.Push.Dialog.v2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621970261" />
     <state x="1276" y="75" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1587501765371">
       <screen x="0" y="0" width="3440" height="1400" />
