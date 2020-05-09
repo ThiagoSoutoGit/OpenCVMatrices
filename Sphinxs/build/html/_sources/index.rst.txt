@@ -10,11 +10,7 @@ Welcome to Matrices Manipulation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Matrix Transforms Class <MatrixManipulation.rst>
-   Matrix Transforms Symbolic Class <MatrixManipulationSymbolic.rst>
-   Example 7 using the Matrix Transforms Symbolic Class<Example7.rst>
-
-
+   Forward Kinematics <ForwardKinematics.rst>
 
 Indices and tables
 ==================

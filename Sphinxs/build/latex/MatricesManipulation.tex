@@ -56,7 +56,7 @@
 
 
 \title{Matrices Manipulation Documentation}
-\date{Apr 27, 2020}
+\date{May 09, 2020}
 \release{1.0}
 \author{Thiago Souto}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -71,185 +71,15 @@
 
 
 
-\chapter{MatrixManipulation module}
-\label{\detokenize{MatrixManipulation:matrixmanipulation-module}}\label{\detokenize{MatrixManipulation:welcome-to-matrices-manipulation-s-documentation}}\label{\detokenize{MatrixManipulation:module-MatrixManipulation}}\label{\detokenize{MatrixManipulation::doc}}\index{MatrixManipulation (module)}\index{Matrix (class in MatrixManipulation)}
+\chapter{ForwardKinematics module}
+\label{\detokenize{ForwardKinematics:module-Forward_Kinematics}}\label{\detokenize{ForwardKinematics:forwardkinematics-module}}\label{\detokenize{ForwardKinematics:welcome-to-matrices-manipulation-s-documentation}}\label{\detokenize{ForwardKinematics::doc}}\index{Forward\_Kinematics (module)}\index{ForwardKinematics (class in Forward\_Kinematics)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{MatrixManipulation.}}\sphinxbfcode{\sphinxupquote{Matrix}}}{\emph{**kwargs}}{}
-Bases: \sphinxhref{https://docs.python.org/3/library/functions.html\#object}{\sphinxcode{\sphinxupquote{object}}}
-
-Definition: This class generates Homogeneous transform matrices,
-that can be used to multiply any matrix and obtain the translation or rotation.
-
-It uses \sphinxtitleref{numpy} to generate the matrices:
-\begin{quote}
-
-np.float32: creates the array with 16 float32 elements
-
-np.reshape: np.reshape rearrange the array into a 4X4 matrix
-\end{quote}
-
-Returns: It returns Rotation and translation matrices.
-
-Obs: {\color{red}\bfseries{}**}kwargs (keyword arguments) are used to facilitate the identification of the parameters, so initiate the
-object
-like: Matrix(x\_angle=’45’, x\_dist=’100’, z\_angle=’60’, z\_dist=’100’), if an argument is not provided,
-the default 0 will be put to the argument.
-\index{rot\_x() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.rot_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_x}}}{\emph{gamma=0}, \emph{degrees=True}}{}
-Definition: Receives an alpha angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{X} axis.
-If the angle is given in radian degrees should be False.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode\begin{itemize}
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{gamma}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the X axis
-
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
-
-\end{itemize}
-
-\end{description}\end{quote}
-
-Returns: The Rotational Matrix at the X axis by an \sphinxstyleemphasis{gamma} angle
-
-\end{fulllineitems}
-
-\index{rot\_y() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.rot_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_y}}}{\emph{beta=0}, \emph{degrees=True}}{}
-Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
-If the angle is given in radian degrees should be False.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode\begin{itemize}
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{beta}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
-
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
-
-\end{itemize}
-
-\end{description}\end{quote}
-
-Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{beta} angle
-
-\end{fulllineitems}
-
-\index{rot\_z() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.rot_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_z}}}{\emph{alpha=0}, \emph{degrees=True}}{}
-Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
-If the angle is given in radian degrees should be False.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode\begin{itemize}
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Rotation Angle around the Z axis
-
-\item {} 
-\sphinxstyleliteralstrong{\sphinxupquote{degrees}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#bool}{\sphinxstyleliteralemphasis{\sphinxupquote{bool}}}) \textendash{} Indicates if the provided angle is in degrees, if yes It will be converted to radians
-
-\end{itemize}
-
-\end{description}\end{quote}
-
-Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{alpha} angle
-
-\end{fulllineitems}
-
-\index{trans\_x() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.trans_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_x}}}{\emph{a=0}}{}
-Definition: Translates the matrix a given amount \sphinxtitleref{a} on the \sphinxstyleemphasis{X} axis by Defining a 4x4 identity
-matrix with \sphinxtitleref{a} as the (1,4) element.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{a}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the X-axis
-
-\end{description}\end{quote}
-
-Returns: The Translation Matrix on the \sphinxstyleemphasis{X} axis by a distance \sphinxstyleemphasis{a}
-
-\end{fulllineitems}
-
-\index{trans\_y() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.trans_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_y}}}{\emph{b=0}}{}
-Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{b} (3,4) element position.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{b}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
-
-\end{description}\end{quote}
-
-Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a distance \sphinxstyleemphasis{b}
-
-\end{fulllineitems}
-
-\index{trans\_z() (MatrixManipulation.Matrix method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.Matrix.trans_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_z}}}{\emph{d=0}}{}
-Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{c} (3,4) element position.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{d}} (\sphinxhref{https://docs.python.org/3/library/functions.html\#float}{\sphinxstyleliteralemphasis{\sphinxupquote{float}}}) \textendash{} Distance translated on the Z-axis
-
-\end{description}\end{quote}
-
-Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a distance \sphinxstyleemphasis{c}
-
-\end{fulllineitems}
-
-
-\end{fulllineitems}
-
-\index{main() (in module MatrixManipulation)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulation:MatrixManipulation.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{MatrixManipulation.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}
-Example 3
-
-\end{fulllineitems}
-
-
-
-\chapter{MatrixManipulationSymbolic module}
-\label{\detokenize{MatrixManipulationSymbolic:module-MatrixManipulationSymbolic}}\label{\detokenize{MatrixManipulationSymbolic:matrixmanipulationsymbolic-module}}\label{\detokenize{MatrixManipulationSymbolic::doc}}\index{MatrixManipulationSymbolic (module)}\index{MatrixSymbolic (class in MatrixManipulationSymbolic)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{MatrixManipulationSymbolic.}}\sphinxbfcode{\sphinxupquote{MatrixSymbolic}}}{\emph{**kwargs}}{}
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.ForwardKinematics}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{class }}\sphinxcode{\sphinxupquote{Forward\_Kinematics.}}\sphinxbfcode{\sphinxupquote{ForwardKinematics}}}{\emph{**kwargs}}{}
 Bases: \sphinxhref{https://docs.python.org/3/library/functions.html\#object}{\sphinxcode{\sphinxupquote{object}}}
 
 Definition: This class generates Homogeneous transform matrices, although it uses a symbolic approach
 that can be used to multiply any matrix and obtain the translation or rotation.
-
-It uses \sphinxtitleref{sympy} to generate the matrices:
-
-sympy.Matrix: creates a sympy matrix object.
-
-sympy.Symbol: creates a symbol, Symbols are identified by name and assumptions.
-First, you need to create symbols using Symbol(“x”)
-We are assuming here that the symbols are “Real” number.
-All newly created symbols have assumptions set according to \sphinxtitleref{args}, for example:
-
-\fvset{hllines={, ,}}%
-\begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{a} \PYG{o}{=} \PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{a}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{integer}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{a}\PYG{o}{.}\PYG{n}{is\PYGZus{}integer}
-\PYG{g+go}{True}
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{z} \PYG{o}{=} \PYG{n}{symbols}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x,y,z}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{n}{real}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
-\PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{n}{x}\PYG{o}{.}\PYG{n}{is\PYGZus{}real} \PYG{o+ow}{and} \PYG{n}{y}\PYG{o}{.}\PYG{n}{is\PYGZus{}real} \PYG{o+ow}{and} \PYG{n}{z}\PYG{o}{.}\PYG{n}{is\PYGZus{}real}
-\PYG{g+go}{True}
-\end{sphinxVerbatim}
 
 sympy.cos and sympy.sin: cos and sin for sympy
 
@@ -261,15 +91,14 @@ Returns: It returns Rotation and translation matrices.
 
 Obs: {\color{red}\bfseries{}**}kwargs (keyword arguments) are used to facilitate the identification of the parameters, so initiate the
 object
-\index{rot\_x() (MatrixManipulationSymbolic.MatrixSymbolic method)}
+\index{rot\_x() (Forward\_Kinematics.ForwardKinematics method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.rot_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_x}}}{\emph{gamma='gamma\_i-1'}}{}
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.ForwardKinematics.rot_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_x}}}{\emph{alpha}}{}
 Definition: Receives an alpha angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{X} axis.
-If the angle is given in radian degrees should be False.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{gamma}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Rotation Angle around the X axis
+\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Rotation Angle around the X axis
 
 \end{description}\end{quote}
 
@@ -277,31 +106,14 @@ Returns: The Rotational Matrix at the X axis by an \sphinxstyleemphasis{given} a
 
 \end{fulllineitems}
 
-\index{rot\_y() (MatrixManipulationSymbolic.MatrixSymbolic method)}
+\index{rot\_z() (Forward\_Kinematics.ForwardKinematics method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.rot_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_y}}}{\emph{beta='beta\_i-1'}}{}
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.ForwardKinematics.rot_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_z}}}{\emph{theta}}{}
 Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
-If the angle is given in radian degrees should be False.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{beta}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Rotation Angle around the Y axis
-
-\end{description}\end{quote}
-
-Returns: The Rotational Matrix at the Y axis by an \sphinxstyleemphasis{given} angle
-
-\end{fulllineitems}
-
-\index{rot\_z() (MatrixManipulationSymbolic.MatrixSymbolic method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.rot_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{rot\_z}}}{\emph{alpha='alpha\_i-1'}}{}
-Definition: Receives an theta angle and returns the rotation matrix for the given angle at the \sphinxstyleemphasis{Z} axis.
-If the angle is given in radian degrees should be False.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{alpha}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Rotation Angle around the Z axis
+\sphinxstyleliteralstrong{\sphinxupquote{theta}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Rotation Angle around the Z axis
 
 \end{description}\end{quote}
 
@@ -309,10 +121,10 @@ Returns: The Rotational Matrix at the Z axis by an \sphinxstyleemphasis{given} a
 
 \end{fulllineitems}
 
-\index{trans\_x() (MatrixManipulationSymbolic.MatrixSymbolic method)}
+\index{trans\_x() (Forward\_Kinematics.ForwardKinematics method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.trans_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_x}}}{\emph{a='a\_i-1'}}{}
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.ForwardKinematics.trans_x}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_x}}}{\emph{a}}{}
 Definition: Translates the matrix a given amount \sphinxtitleref{a} on the \sphinxstyleemphasis{X} axis by Defining a 4x4 identity
 matrix with \sphinxtitleref{a} as the (1,4) element.
 \begin{quote}\begin{description}
@@ -325,28 +137,12 @@ Returns: The Translation Matrix on the \sphinxstyleemphasis{X} axis by a given d
 
 \end{fulllineitems}
 
-\index{trans\_y() (MatrixManipulationSymbolic.MatrixSymbolic method)}
+\index{trans\_z() (Forward\_Kinematics.ForwardKinematics method)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.trans_y}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_y}}}{\emph{b='b\_i-1'}}{}
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.ForwardKinematics.trans_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_z}}}{\emph{d}}{}
 Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{b} (3,4) element position.
-\begin{quote}\begin{description}
-\item[{Parameters}] \leavevmode
-\sphinxstyleliteralstrong{\sphinxupquote{b}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Distance translated on the Z-axis
-
-\end{description}\end{quote}
-
-Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a given distance
-
-\end{fulllineitems}
-
-\index{trans\_z() (MatrixManipulationSymbolic.MatrixSymbolic method)}
-
-\begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.MatrixSymbolic.trans_z}}\pysiglinewithargsret{\sphinxbfcode{\sphinxupquote{trans\_z}}}{\emph{d='d\_i-1'}}{}
-Definition: Translate the matrix a given amount \sphinxtitleref{d} on the \sphinxstyleemphasis{Z} axis. by Defining a matrix T 4x4 identity
-matrix with \sphinxstyleemphasis{c} (3,4) element position.
+matrix with \sphinxstyleemphasis{d} (3,4) element position.
 \begin{quote}\begin{description}
 \item[{Parameters}] \leavevmode
 \sphinxstyleliteralstrong{\sphinxupquote{d}} (\sphinxstyleliteralemphasis{\sphinxupquote{string}}) \textendash{} Distance translated on the Z-axis
@@ -360,73 +156,178 @@ Returns: The Translation Matrix on the \sphinxstyleemphasis{Z} axis by a given d
 
 \end{fulllineitems}
 
-\index{main() (in module MatrixManipulationSymbolic)}
+\index{main() (in module Forward\_Kinematics)}
 
 \begin{fulllineitems}
-\phantomsection\label{\detokenize{MatrixManipulationSymbolic:MatrixManipulationSymbolic.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{MatrixManipulationSymbolic.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}
-Example 6:
-
-Calculates the Three-link manipulator kinematics.
-At the end we can express a Transform from link 0 to link 3.
+\phantomsection\label{\detokenize{ForwardKinematics:Forward_Kinematics.main}}\pysiglinewithargsret{\sphinxcode{\sphinxupquote{Forward\_Kinematics.}}\sphinxbfcode{\sphinxupquote{main}}}{}{}
+Assessment 02 Robotic manipulator design - Forward Kinematics.
 
 \end{fulllineitems}
 
 
-
-\chapter{Example7 module}
-\label{\detokenize{Example7:example7-module}}\label{\detokenize{Example7::doc}}
 \fvset{hllines={, ,}}%
-\begin{sphinxVerbatim}[commandchars=\\\{\},numbers=left,firstnumber=1,stepnumber=1]
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
 \PYG{k+kn}{import} \PYG{n+nn}{sympy} \PYG{k}{as} \PYG{n+nn}{sympy}
-\PYG{k+kn}{from} \PYG{n+nn}{src}\PYG{n+nn}{.}\PYG{n+nn}{MatrixManipulationSymbolic} \PYG{k+kn}{import} \PYG{n}{MatrixSymbolic}
+
+
+\PYG{k}{class} \PYG{n+nc}{ForwardKinematics}\PYG{p}{:}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Definition: This class generates Homogeneous transform matrices, although it uses a symbolic approach}
+\PYG{l+s+sd}{    that can be used to multiply any matrix and obtain the translation or rotation.}
+
+\PYG{l+s+sd}{    sympy.cos and sympy.sin: cos and sin for sympy}
+
+\PYG{l+s+sd}{    sympy.simplify: SymPy has dozens of functions to perform various kinds of simplification.}
+\PYG{l+s+sd}{    simplify() attempts to apply all of these functions}
+\PYG{l+s+sd}{    in an intelligent way to arrive at the simplest form of an expression.}
+
+\PYG{l+s+sd}{    Returns: It returns Rotation and translation matrices.}
+
+\PYG{l+s+sd}{    Obs: **kwargs (keyword arguments) are used to facilitate the identification of the parameters, so initiate the}
+\PYG{l+s+sd}{    object}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{np}\PYG{o}{.}\PYG{n}{set\PYGZus{}printoptions}\PYG{p}{(}\PYG{n}{precision}\PYG{o}{=}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{suppress}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{init\PYGZus{}printing}\PYG{p}{(}\PYG{n}{use\PYGZus{}unicode}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{num\PYGZus{}columns}\PYG{o}{=}\PYG{l+m+mi}{400}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{*}\PYG{o}{*}\PYG{n}{kwargs}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Initializes the Object.}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{alpha\PYGZus{}i\PYGZhy{}1}\PYG{l+s+s1}{\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}dist} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{x\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{a\PYGZus{}i\PYGZhy{}1}\PYG{l+s+s1}{\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}y\PYGZus{}angle} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}y\PYGZus{}dist} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{y\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{z\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{z\PYGZus{}angle}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}i}\PYG{l+s+s1}{\PYGZsq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}dist} \PYG{o}{=} \PYG{n}{kwargs}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{z\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{z\PYGZus{}dist}\PYG{l+s+s1}{\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs} \PYG{k}{else} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{d\PYGZus{}i}\PYG{l+s+s1}{\PYGZsq{}}
+
+    \PYG{k}{def} \PYG{n+nf}{trans\PYGZus{}x}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{a}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Definition: Translates the matrix a given amount {}`a{}` on the *X* axis by Defining a 4x4 identity}
+\PYG{l+s+sd}{        matrix with {}`a{}` as the (1,4) element.}
+
+\PYG{l+s+sd}{        :type a: string}
+\PYG{l+s+sd}{        :param a: Distance translated on the X\PYGZhy{}axis}
+
+\PYG{l+s+sd}{        Returns: The Translation Matrix on the *X* axis by a given distance}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}dist} \PYG{o}{=} \PYG{n}{a}
+
+        \PYG{n}{t\PYGZus{}x} \PYG{o}{=} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}dist}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
+
+        \PYG{n}{t\PYGZus{}x} \PYG{o}{=} \PYG{n}{t\PYGZus{}x}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{n}{t\PYGZus{}x}
+
+    \PYG{k}{def} \PYG{n+nf}{trans\PYGZus{}z}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{d}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Definition: Translate the matrix a given amount {}`d{}` on the *Z* axis. by Defining a matrix T 4x4 identity}
+\PYG{l+s+sd}{        matrix with *d* (3,4) element position.}
+
+\PYG{l+s+sd}{        :type d: string}
+\PYG{l+s+sd}{        :param d: Distance translated on the Z\PYGZhy{}axis}
+
+\PYG{l+s+sd}{        Returns: The Translation Matrix on the *Z* axis by a given distance}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}dist} \PYG{o}{=} \PYG{n}{d}
+
+        \PYG{n}{t\PYGZus{}z} \PYG{o}{=} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}dist}\PYG{p}{]}\PYG{p}{,}
+                            \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
+
+        \PYG{n}{t\PYGZus{}z} \PYG{o}{=} \PYG{n}{t\PYGZus{}z}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{n}{t\PYGZus{}z}
+
+    \PYG{k}{def} \PYG{n+nf}{rot\PYGZus{}x}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{alpha}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Definition: Receives an alpha angle and returns the rotation matrix for the given angle at the *X* axis.}
+
+\PYG{l+s+sd}{        :type alpha: string}
+\PYG{l+s+sd}{        :param alpha: Rotation Angle around the X axis}
+
+\PYG{l+s+sd}{        Returns: The Rotational Matrix at the X axis by an *given* angle}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle} \PYG{o}{=} \PYG{n}{alpha}
+
+        \PYG{n}{r\PYGZus{}x} \PYG{o}{=} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}x\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
+
+        \PYG{n}{r\PYGZus{}x} \PYG{o}{=} \PYG{n}{r\PYGZus{}x}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{n}{r\PYGZus{}x}
+
+    \PYG{k}{def} \PYG{n+nf}{rot\PYGZus{}z}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{theta}\PYG{p}{)}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Definition: Receives an theta angle and returns the rotation matrix for the given angle at the *Z* axis.}
+
+\PYG{l+s+sd}{        :type theta: string}
+\PYG{l+s+sd}{        :param theta: Rotation Angle around the Z axis}
+
+\PYG{l+s+sd}{        Returns: The Rotational Matrix at the Z axis by an *given* angle}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle} \PYG{o}{=} \PYG{n}{theta}
+
+        \PYG{n}{r\PYGZus{}z} \PYG{o}{=} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{Matrix}\PYG{p}{(}\PYG{p}{[}\PYG{p}{[}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{sin}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{cos}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z\PYGZus{}angle}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}
+                              \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{p}{]}\PYG{p}{)}
+
+        \PYG{n}{r\PYGZus{}z} \PYG{o}{=} \PYG{n}{r\PYGZus{}z}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{n}{r\PYGZus{}z}
 
 
 \PYG{k}{def} \PYG{n+nf}{main}\PYG{p}{(}\PYG{p}{)}\PYG{p}{:}
     \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
-\PYG{l+s+sd}{    Example 7, First part homogeneous transform:}
-
-\PYG{l+s+sd}{    Calculates the Three\PYGZhy{}link manipulator kinematics.}
-\PYG{l+s+sd}{    At the end we can express a Transform from link 0 to link 4.}
+\PYG{l+s+sd}{    Assessment 02 Robotic manipulator design \PYGZhy{} Forward Kinematics.}
 \PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Example 7:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-
-    \PYG{n}{a1} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rx(a\PYGZus{}i\PYGZhy{}1)}
-    \PYG{n}{a2} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dx(a\PYGZus{}i\PYGZhy{}1)}
-    \PYG{n}{a3} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dz(d\PYGZus{}i)}
-    \PYG{n}{a4} \PYG{o}{=} \PYG{n}{MatrixSymbolic}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rz(theta\PYGZus{}i)}
+    \PYG{n}{a1} \PYG{o}{=} \PYG{n}{ForwardKinematics}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rx(a\PYGZus{}i\PYGZhy{}1)}
+    \PYG{n}{a2} \PYG{o}{=} \PYG{n}{ForwardKinematics}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dx(a\PYGZus{}i\PYGZhy{}1)}
+    \PYG{n}{a3} \PYG{o}{=} \PYG{n}{ForwardKinematics}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Dz(d\PYGZus{}i)}
+    \PYG{n}{a4} \PYG{o}{=} \PYG{n}{ForwardKinematics}\PYG{p}{(}\PYG{p}{)}       \PYG{c+c1}{\PYGZsh{} Rz(theta\PYGZus{}i)}
 
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}1:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-    \PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}1}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix t\PYGZus{}0\PYGZus{}1:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l1}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}1}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}1}\PYG{p}{)}\PYG{p}{)}
 
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}1\PYGZus{}2:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-    \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{90.0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix t\PYGZus{}1\PYGZus{}2:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{90.00}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}1\PYGZus{}2}\PYG{p}{)}\PYG{p}{)}
 
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}2\PYGZus{}3:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix t\PYGZus{}2\PYGZus{}3:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
     \PYG{n}{t\PYGZus{}2\PYGZus{}3} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}2\PYGZus{}3}\PYG{p}{)}\PYG{p}{)}
 
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}3\PYGZus{}4:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-    \PYG{n}{t\PYGZus{}3\PYGZus{}4} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix t\PYGZus{}3\PYGZus{}4:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}3\PYGZus{}4} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{theta\PYGZus{}4}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}3\PYGZus{}4}\PYG{p}{)}\PYG{p}{)}
 
-    \PYG{n}{t\PYGZus{}0\PYGZus{}4} \PYG{o}{=} \PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{*} \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{*} \PYG{n}{t\PYGZus{}2\PYGZus{}3} \PYG{o}{*} \PYG{n}{t\PYGZus{}3\PYGZus{}4}
-
     \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}4:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{simplify}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}4}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix t\PYGZus{}4\PYGZus{}5:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}4\PYGZus{}5} \PYG{o}{=} \PYG{p}{(}\PYG{n}{a1}\PYG{o}{.}\PYG{n}{rot\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a2}\PYG{o}{.}\PYG{n}{trans\PYGZus{}x}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l4}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a3}\PYG{o}{.}\PYG{n}{trans\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)} \PYG{o}{*} \PYG{p}{(}\PYG{n}{a4}\PYG{o}{.}\PYG{n}{rot\PYGZus{}z}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{0}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}4\PYGZus{}5}\PYG{p}{)}\PYG{p}{)}
 
-    \PYG{n}{t\PYGZus{}0\PYGZus{}4f} \PYG{o}{=} \PYG{n}{t\PYGZus{}0\PYGZus{}4}\PYG{o}{.}\PYG{n}{evalf}\PYG{p}{(}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}0\PYGZus{}5} \PYG{o}{=} \PYG{n}{sympy}\PYG{o}{.}\PYG{n}{simplify}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}1} \PYG{o}{*} \PYG{n}{t\PYGZus{}1\PYGZus{}2} \PYG{o}{*} \PYG{n}{t\PYGZus{}2\PYGZus{}3} \PYG{o}{*} \PYG{n}{t\PYGZus{}3\PYGZus{}4} \PYG{o}{*} \PYG{n}{t\PYGZus{}4\PYGZus{}5}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix T\PYGZus{}0\PYGZus{}5:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}5}\PYG{p}{)}\PYG{p}{)}
 
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{t\PYGZus{}0\PYGZus{}4f:}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{simplify}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}4f}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}
+    \PYG{n}{t\PYGZus{}0\PYGZus{}5\PYGZus{}subs} \PYG{o}{=} \PYG{n}{t\PYGZus{}0\PYGZus{}5}\PYG{o}{.}\PYG{n}{subs}\PYG{p}{(}\PYG{p}{[}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l1}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{230}\PYG{p}{)}\PYG{p}{,} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l2}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{500}\PYG{p}{)}\PYG{p}{,} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l3}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{500}\PYG{p}{)}\PYG{p}{,} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{l4}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{180}\PYG{p}{)}\PYG{p}{]}\PYG{p}{)}
 
-    \PYG{k}{return}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Matrix T\PYGZus{}0\PYGZus{}5: with substitutions Round}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{sympy}\PYG{o}{.}\PYG{n}{pretty}\PYG{p}{(}\PYG{n}{t\PYGZus{}0\PYGZus{}5\PYGZus{}subs}\PYG{p}{)}\PYG{p}{)}
 
 
 \PYG{k}{if} \PYG{n+nv+vm}{\PYGZus{}\PYGZus{}name\PYGZus{}\PYGZus{}} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{\PYGZus{}\PYGZus{}main\PYGZus{}\PYGZus{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:}
@@ -477,9 +378,8 @@ Find all the files at the GitHub repository \sphinxhref{https://github.com/Thiag
 \renewcommand{\indexname}{Python Module Index}
 \begin{sphinxtheindex}
 \def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
-\bigletter{m}
-\item {\sphinxstyleindexentry{MatrixManipulation}}\sphinxstyleindexpageref{MatrixManipulation:\detokenize{module-MatrixManipulation}}
-\item {\sphinxstyleindexentry{MatrixManipulationSymbolic}}\sphinxstyleindexpageref{MatrixManipulationSymbolic:\detokenize{module-MatrixManipulationSymbolic}}
+\bigletter{f}
+\item {\sphinxstyleindexentry{Forward\_Kinematics}}\sphinxstyleindexpageref{ForwardKinematics:\detokenize{module-Forward_Kinematics}}
 \end{sphinxtheindex}
 
 \renewcommand{\indexname}{Index}
