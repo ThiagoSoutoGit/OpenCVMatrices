@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Inverse_Kinematics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/ForwardKinematics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/ForwardKinematics.rst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/css/badge_only.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/css/badge_only.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/doctools.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/doctools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/documentation_options.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/documentation_options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/jquery-3.2.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/jquery-3.2.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/js/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/js/modernizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/js/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/searchtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/searchtools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/underscore-1.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/underscore-1.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/underscore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/underscore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_static/websupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_static/websupport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/footnotehyper-sphinx.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/latexmkjarc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/latexmkrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/python.ist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/sphinx.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxhighlight.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxhowto.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxmanual.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/sphinxmulticell.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/ForwardKinematics.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sphinxs/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/modules.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forward_Kinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forward_Kinematics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +84,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Inverse_Kinematics.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +100,7 @@
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Inverse Kinamatics">
+  <component name="RunManager" selected="Python.Forward Kinematics">
     <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="PORT" value="0" />
@@ -65,160 +112,6 @@
       </PathMappingSettings>
       <option name="REDIRECT_OUTPUT" value="true" />
       <option name="SUSPEND_AFTER_CONNECT" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 2" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 3" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example 3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 4" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example 4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 6 symbolic" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example_6_Symbolic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 6" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example 7" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Example_2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Example_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Forward Kinematics" type="PythonConfigurationType" factoryName="Python">
@@ -240,28 +133,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hybrid" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\MatrixManipulationSymbolicHybrid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Inverse Kinamatics" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,204 +144,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Inverse_Kinematics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Jacobian" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\jacobian_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Matrix Manipulation Symbolic" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\MatrixManipulationSymbolic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Matrix Manipulation" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\MatrixManipulation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Newon-euler Simple" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Lecture_11_newton_euler_simple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Newton-Euler-Complex" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Lecture_11_newton_euler_complex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Newton-Euler" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\Lecture_11_newton_euler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Partial Differentiation" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\partial_differentiation_examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Product Rule" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\product_rule_examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Quotient Rule" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\quotient_rule_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,47 +174,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="types" type="PythonConfigurationType" factoryName="Python">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/types.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="working" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="OpenCVMatrices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\working.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in " type="docs" factoryName="Sphinx task" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,27 +194,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.Example 4" />
-      <item itemvalue="Python.Example 7" />
-      <item itemvalue="Python.Newton-Euler" />
-      <item itemvalue="Python.Newton-Euler-Complex" />
-      <item itemvalue="Python.Newon-euler Simple" />
-      <item itemvalue="Python.Example 3" />
-      <item itemvalue="Python.Matrix Manipulation" />
-      <item itemvalue="Python.working" />
-      <item itemvalue="Python.Jacobian" />
-      <item itemvalue="Python.Partial Differentiation" />
-      <item itemvalue="Python.Example 2" />
-      <item itemvalue="Python.Example 6" />
-      <item itemvalue="Python.Quotient Rule" />
-      <item itemvalue="Python.Product Rule" />
-      <item itemvalue="Python.Matrix Manipulation Symbolic" />
       <item itemvalue="Python.Forward Kinematics" />
       <item itemvalue="Python.Inverse Kinamatics" />
-      <item itemvalue="Python.types" />
-      <item itemvalue="Python.Hybrid" />
-      <item itemvalue="Python.Example 6 symbolic" />
-      <item itemvalue="Python.Example_2" />
       <item itemvalue="Python Debug Server.Unnamed" />
       <item itemvalue="Python docs.sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in sphinx task in " />
     </list>
@@ -623,6 +236,7 @@
       <workItem from="1588449351346" duration="11897000" />
       <workItem from="1588712343667" duration="17488000" />
       <workItem from="1589017406762" duration="28462000" />
+      <workItem from="1589247768146" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -780,10 +394,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2172" y="341" key="#Plugins/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587521615361" />
-    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589235953518">
-      <screen x="718" y="1440" width="1920" height="1040" />
+    <state x="463" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589247810074">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="463" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1589048311036" />
+    <state x="463" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1589247810074" />
     <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1589235953518" />
     <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587897375787">
       <screen x="0" y="0" width="3440" height="1400" />

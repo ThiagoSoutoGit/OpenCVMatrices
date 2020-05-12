@@ -4,4 +4,5 @@ src
 .. toctree::
    :maxdepth: 4
 
-   ForwardKinematics
+   Forward_Kinematics
+   Inverse_Kinematics

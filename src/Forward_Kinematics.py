@@ -169,13 +169,6 @@ def main():
     print('\nMatrix T_1_5: for theta_1 = 0 ')
     print(sympy.pretty(printM(t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('theta_1', np.deg2rad(0.00))]), 3)))
 
-    print('\nMatrix T_1_5: for theta_1 = 0 ')
-    print(sympy.pretty(printM(t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('theta_1', np.deg2rad(180.00))]), 3)))
-
-    # t_1_5_subs = t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('l1', 230), ('l2', 500), ('l3', 500), ('l4', 180)])
-    # print('\nMatrix T_1_5: with substitutions Round')
-    # print(sympy.pretty(printM(t_1_5_subs, 3)))
-
     # Calculations for the Inverse kinematics problem
 
     t_1_4 = sympy.simplify(t_1_5 * t_4_5.inv())
@@ -185,9 +178,6 @@ def main():
     t_3_5 = sympy.simplify(t_1_5 * t_1_2.inv() * t_2_3.inv())
     print('\nMatrix t_3_5:')
     print(sympy.pretty(printM(t_3_5.subs('alpha_1', np.deg2rad(90.00)), 3)))
-
-
-
 
 
 if __name__ == '__main__':

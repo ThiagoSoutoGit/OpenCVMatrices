@@ -10,7 +10,8 @@ Welcome to Matrices Manipulation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Forward Kinematics <ForwardKinematics.rst>
+   Forward Kinematics <Forward_Kinematics.rst>
+   Inverse Kinematics <Inverse_Kinematics.rst>
 
 Indices and tables
 ==================
