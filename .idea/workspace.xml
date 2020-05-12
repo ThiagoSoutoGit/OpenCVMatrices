@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Inverse_Kinematics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inverse_kinematics_Frazer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Forward_Kinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forward_Kinematics.py" afterDir="false" />
     </list>
@@ -624,7 +622,7 @@
       <workItem from="1588325580676" duration="616000" />
       <workItem from="1588449351346" duration="11897000" />
       <workItem from="1588712343667" duration="17488000" />
-      <workItem from="1589017406762" duration="27785000" />
+      <workItem from="1589017406762" duration="28462000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
