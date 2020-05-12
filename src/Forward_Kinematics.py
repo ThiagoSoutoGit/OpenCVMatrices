@@ -1,5 +1,6 @@
 import numpy as np
 import sympy as sympy
+from sympy import *
 
 
 class ForwardKinematics:
@@ -88,9 +89,9 @@ class ForwardKinematics:
         self._x_angle = alpha
 
         r_x = sympy.Matrix([[1, 0, 0, 0],
-                              [0, sympy.cos(self._x_angle), -sympy.sin(self._x_angle), 0],
-                              [0, sympy.sin(self._x_angle), sympy.cos(self._x_angle), 0],
-                              [0, 0, 0, 1]])
+                            [0, sympy.cos(self._x_angle), -sympy.sin(self._x_angle), 0],
+                            [0, sympy.sin(self._x_angle), sympy.cos(self._x_angle), 0],
+                            [0, 0, 0, 1]])
 
         r_x = r_x.evalf()
 
@@ -108,13 +109,20 @@ class ForwardKinematics:
         self._z_angle = theta
 
         r_z = sympy.Matrix([[sympy.cos(self._z_angle), -sympy.sin(self._z_angle), 0, 0],
-                              [sympy.sin(self._z_angle), sympy.cos(self._z_angle), 0, 0],
-                              [0, 0, 1, 0],
-                              [0, 0, 0, 1]])
+                            [sympy.sin(self._z_angle), sympy.cos(self._z_angle), 0, 0],
+                            [0, 0, 1, 0],
+                            [0, 0, 0, 1]])
 
         r_z = r_z.evalf()
 
         return r_z
+
+
+# def printM(expr, num_digits):
+#     return expr.xreplace({n.evalf(): n if type(n) == int else Float(n, num_digits) for n in expr.atoms(Number)})
+
+def printM(expr, num_digits):
+    return expr.xreplace({n.evalf(): round(n, num_digits) for n in expr.atoms(Number)})
 
 
 def main():
@@ -126,39 +134,60 @@ def main():
     a3 = ForwardKinematics()       # Dz(d_i)
     a4 = ForwardKinematics()       # Rz(theta_i)
 
-    print()
     print('Matrix t_0_1:')
     t_0_1 = (a1.rot_x('0')) * (a2.trans_x('0')) * (a3.trans_z('l1')) * (a4.rot_z('theta_1'))
     print(sympy.pretty(t_0_1))
 
-    print()
-    print('Matrix t_1_2:')
-    t_1_2 = (a1.rot_x('90.00')) * (a2.trans_x('0')) * (a3.trans_z('0')) * (a4.rot_z('theta_2'))
-    print(sympy.pretty(t_1_2))
+    print('\nMatrix t_1_2:')
+    t_1_2 = (a1.rot_x('alpha_1')) * (a2.trans_x('0')) * (a3.trans_z('0')) * (a4.rot_z('theta_2'))
+    t_1_2_subs = t_1_2.subs('alpha_1', np.deg2rad(90.00))
+    print(sympy.pretty(printM(t_1_2_subs, 3)))
 
-    print()
-    print('Matrix t_2_3:')
+    print('\nMatrix t_2_3:')
     t_2_3 = (a1.rot_x('0')) * (a2.trans_x('l2')) * (a3.trans_z('0')) * (a4.rot_z('theta_3'))
     print(sympy.pretty(t_2_3))
 
-    print()
-    print('Matrix t_3_4:')
+    print('\nMatrix t_3_4:')
     t_3_4 = (a1.rot_x('0')) * (a2.trans_x('l3')) * (a3.trans_z('0')) * (a4.rot_z('theta_4'))
     print(sympy.pretty(t_3_4))
 
-    print()
-    print('Matrix t_4_5:')
+    print('\nMatrix t_4_5:')
     t_4_5 = (a1.rot_x('0')) * (a2.trans_x('l4')) * (a3.trans_z('0')) * (a4.rot_z('0'))
     print(sympy.pretty(t_4_5))
 
     t_0_5 = sympy.simplify(t_0_1 * t_1_2 * t_2_3 * t_3_4 * t_4_5)
-    print('Matrix T_0_5:')
-    print(sympy.pretty(t_0_5))
+    print('\nMatrix T_0_5: with substitutions Round')
+    print(sympy.pretty(sympy.simplify(printM(t_0_5.subs('alpha_1', np.deg2rad(90.00)), 3))))
+    t_0_5_subs = t_0_5.subs([('alpha_1', np.deg2rad(90.00)), ('l1', 230), ('l2', 500), ('l3', 500), ('l4', 180)])
+    print('\nMatrix T_0_5: with substitutions Round')
+    print(sympy.pretty(sympy.simplify(printM(t_0_5_subs, 3))))
 
-    t_0_5_subs = t_0_5.subs([('l1', 230), ('l2', 500), ('l3', 500), ('l4', 180)])
+    t_1_5 = sympy.simplify(t_1_2 * t_2_3 * t_3_4 * t_4_5)
+    print('\nMatrix T_1_5:')
+    print(sympy.pretty(printM(t_1_5.subs('alpha_1', np.deg2rad(90.00)), 3)))
 
-    print('Matrix T_0_5: with substitutions Round')
-    print(sympy.pretty(t_0_5_subs))
+    print('\nMatrix T_1_5: for theta_1 = 0 ')
+    print(sympy.pretty(printM(t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('theta_1', np.deg2rad(0.00))]), 3)))
+
+    print('\nMatrix T_1_5: for theta_1 = 0 ')
+    print(sympy.pretty(printM(t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('theta_1', np.deg2rad(180.00))]), 3)))
+
+    # t_1_5_subs = t_1_5.subs([('alpha_1', np.deg2rad(90.00)), ('l1', 230), ('l2', 500), ('l3', 500), ('l4', 180)])
+    # print('\nMatrix T_1_5: with substitutions Round')
+    # print(sympy.pretty(printM(t_1_5_subs, 3)))
+
+    # Calculations for the Inverse kinematics problem
+
+    t_1_4 = sympy.simplify(t_1_5 * t_4_5.inv())
+    print('\nMatrix T_1_4:')
+    print(sympy.pretty(printM(t_1_4.subs('alpha_1', np.deg2rad(90.00)), 3)))
+
+    t_3_5 = sympy.simplify(t_1_5 * t_1_2.inv() * t_2_3.inv())
+    print('\nMatrix t_3_5:')
+    print(sympy.pretty(printM(t_3_5.subs('alpha_1', np.deg2rad(90.00)), 3)))
+
+
+
 
 
 if __name__ == '__main__':

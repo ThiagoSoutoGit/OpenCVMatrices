@@ -2,95 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10814f91-4e7c-4c94-a1f5-320865d8b67e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scr_aux/AppleDetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_inertia_tensor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_newton_euler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_newton_euler_complex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_newton_euler_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_notebook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_11_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr_aux/Lecture_12_notebook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Forward_Kinematics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inverse_Kinematics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inverse_kinematics_Frazer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example7.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/Example7.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/index.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/doctrees/modules.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example 4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/Example_6_Symbolic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/MatrixManipulationSymbolicHybrid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example 3.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example 4.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example7.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example_2.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example_6.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/Example_6_Symbolic.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulation.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulationSymbolic.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/MatrixManipulationSymbolicHybrid.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/chain_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/jacobian_example.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/_sources/modules.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/partial_differentiation_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/product_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/quotient_rule_examples.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/_sources/working.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/chain_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/jacobian_example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/partial_differentiation_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/product_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/py-modindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/quotient_rule_examples.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/html/working.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/build/latex/MatricesManipulation.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example 3.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example 4.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example7.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example_2.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example_6.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/Example_6_Symbolic.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolic.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/MatrixManipulationSymbolicHybrid.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/chain_rule_examples.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/jacobian_example.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Sphinxs/source/modules.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/partial_differentiation_examples.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/product_rule_examples.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/quotient_rule_examples.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sphinxs/source/working.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example 3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example 4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example7.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Example_6_Symbolic.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/Example_6_Symbolic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/MatrixManipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixManipulationSymbolic.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/MatrixManipulationSymbolic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixManipulationSymbolicHybrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/MatrixManipulationSymbolicHybrid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain_rule_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/chain_rule_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jacobian_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/jacobian_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebooks/.ipynb_checkpoints/PartialDifferentiation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/PartialDifferentiation-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notebooks/PartialDifferentiation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/PartialDifferentiation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partial_differentiation_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/partial_differentiation_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product_rule_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/product_rule_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quotient_rule_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/quotient_rule_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/working.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr_aux/working.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forward_Kinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forward_Kinematics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ass2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Inverse_Kinematics.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -139,7 +55,7 @@
       <recent name="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Forward Kinematics">
+  <component name="RunManager" selected="Python.Inverse Kinamatics">
     <configuration name="Unnamed" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="PORT" value="0" />
@@ -340,6 +256,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Thiago Souto\Desktop\PyCharmProjects\OpenCVMatrices\scr_aux\MatrixManipulationSymbolicHybrid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Inverse Kinamatics" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Inverse_Kinematics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -568,6 +503,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="types" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenCVMatrices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Thiago Souto\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/types.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="working" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="OpenCVMatrices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -626,6 +580,8 @@
       <item itemvalue="Python.Product Rule" />
       <item itemvalue="Python.Matrix Manipulation Symbolic" />
       <item itemvalue="Python.Forward Kinematics" />
+      <item itemvalue="Python.Inverse Kinamatics" />
+      <item itemvalue="Python.types" />
       <item itemvalue="Python.Hybrid" />
       <item itemvalue="Python.Example 6 symbolic" />
       <item itemvalue="Python.Example_2" />
@@ -668,7 +624,7 @@
       <workItem from="1588325580676" duration="616000" />
       <workItem from="1588449351346" duration="11897000" />
       <workItem from="1588712343667" duration="17488000" />
-      <workItem from="1589017406762" duration="2787000" />
+      <workItem from="1589017406762" duration="27785000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1587522823826</created>
@@ -826,11 +782,11 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2172" y="341" key="#Plugins/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587521615361" />
-    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589018240278">
+    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589235953518">
       <screen x="718" y="1440" width="1920" height="1040" />
     </state>
-    <state x="463" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1588751566556" />
-    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1589018240278" />
+    <state x="463" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1589048311036" />
+    <state x="989" y="1497" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1589235953518" />
     <state x="616" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587897375787">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -853,11 +809,11 @@
     </state>
     <state x="2162" y="190" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1587914179957" />
     <state x="1497" y="1442" key="CommitChangelistDialog2/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587621947147" />
-    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1588708203549">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="1555" y="1778" key="FileChooserDialogImpl" timestamp="1589235952198">
+      <screen x="718" y="1440" width="1920" height="1040" />
     </state>
-    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1588708203549" />
-    <state x="1555" y="1778" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1587470712151" />
+    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@0.0.3440.1400" timestamp="1589048310100" />
+    <state x="1555" y="1778" key="FileChooserDialogImpl/0.0.3440.1400/718.1440.1920.1040@718.1440.1920.1040" timestamp="1589235952198" />
     <state x="2442" y="602" key="Github.ShareDialog" timestamp="1587522958808">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
